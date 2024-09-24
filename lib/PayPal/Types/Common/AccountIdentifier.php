@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\Common;
-use PayPal\Core\PPMessage;  
+
+use PayPal\Core\PPMessage;
 /**
  * 
  */
@@ -16,15 +17,8 @@ class AccountIdentifier
 	 * @var string	 
 	 */ 
 	public string $email;
-
-	/**
-	 * 
-	 * @access public
-	 
-	 	 	 	 
-	 * @var PayPal\Types\Common\PhoneNumberType	 
-	 */ 
-	public PayPal\Types\Common\PhoneNumberType $phone;
+	
+	public PhoneNumberType $phone;
 
 	/**
 	 * 
