@@ -16,7 +16,7 @@
 		public string              $ipnNotificationUrl;
 		public string              $memo;
 		public PaymentInfoList     $paymentInfoList;
-		public string              $returnUrl;
+		public ?string             $returnUrl = NULL;
 		public string              $senderEmail;
 		public string              $status;
 		public string              $trackingId;
