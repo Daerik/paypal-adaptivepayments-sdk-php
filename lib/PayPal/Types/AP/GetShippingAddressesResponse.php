@@ -11,6 +11,6 @@
 	 */
 	class GetShippingAddressesResponse extends PPMessage {
 		public ?ResponseEnvelope $responseEnvelope = NULL;
-		public Address           $selectedAddress;
+		public ?Address          $selectedAddress  = NULL;
 		public ErrorData         $error;
 	}
