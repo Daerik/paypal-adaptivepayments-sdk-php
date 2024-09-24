@@ -1,7 +1,6 @@
 <?php
 	namespace PayPal\Types\AP;
 	
-	use DateTime;
 	use PayPal\Core\PPMessage;
 	use PayPal\Types\Common\ClientDetailsType;
 	use PayPal\Types\Common\RequestEnvelope;
@@ -11,162 +10,29 @@
 	 * the API caller (the service invoker) to make payment(s) on
 	 * the the sender's behalf with various limitations defined.
 	 */
-	class PreapprovalRequest
-		extends PPMessage {
-		
-		/**
-		 *
-		 * @access public
-		 * @var RequestEnvelope
-		 */
-		public mixed $requestEnvelope;
-		
-		/**
-		 *
-		 * @access public
-		 * @var ClientDetailsType
-		 */
+	class PreapprovalRequest extends PPMessage {
+		public ?RequestEnvelope  $requestEnvelope;
 		public ClientDetailsType $clientDetails;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public mixed $cancelUrl;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public mixed $currencyCode;
-		
-		/**
-		 *
-		 * @access public
-		 * @var int
-		 */
-		public int $dateOfMonth;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $dayOfWeek;
-		
-		/**
-		 *
-		 * @access public
-		 * @var dateTime
-		 */
-		public DateTime $endingDate;
-		
-		/**
-		 *
-		 * @access public
-		 * @var double
-		 */
-		public float $maxAmountPerPayment;
-		
-		/**
-		 *
-		 * @access public
-		 * @var int
-		 */
-		public int $maxNumberOfPayments;
-		
-		/**
-		 *
-		 * @access public
-		 * @var int
-		 */
-		public int $maxNumberOfPaymentsPerPeriod;
-		
-		/**
-		 *
-		 * @access public
-		 * @var double
-		 */
-		public float $maxTotalAmountOfAllPayments;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $paymentPeriod;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public mixed $returnUrl;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $memo;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $ipnNotificationUrl;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $senderEmail;
-		
-		/**
-		 *
-		 * @access public
-		 * @var dateTime
-		 */
-		public mixed $startingDate;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $pinType;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $feesPayer;
-		
-		/**
-		 *
-		 * @access public
-		 * @var bool
-		 */
-		public bool $displayMaxTotalAmount;
-		
-		/**
-		 *
-		 * @access public
-		 * @var bool
-		 */
-		public bool $requireInstantFundingSource;
-		
-		/**
-		 *
-		 * @access public
-		 * @var SenderIdentifier
-		 */
-		public SenderIdentifier $sender;
+		public ?string           $cancelUrl;
+		public ?string           $currencyCode;
+		public int               $dateOfMonth;
+		public string            $dayOfWeek;
+		public string            $endingDate;
+		public float             $maxAmountPerPayment;
+		public int               $maxNumberOfPayments;
+		public int               $maxNumberOfPaymentsPerPeriod;
+		public float             $maxTotalAmountOfAllPayments;
+		public string            $paymentPeriod;
+		public ?string           $returnUrl;
+		public string            $memo;
+		public string            $ipnNotificationUrl;
+		public string            $senderEmail;
+		public ?string           $startingDate;
+		public string            $pinType;
+		public string            $feesPayer;
+		public bool              $displayMaxTotalAmount;
+		public bool              $requireInstantFundingSource;
+		public SenderIdentifier  $sender;
 		
 		/**
 		 * Constructor with arguments

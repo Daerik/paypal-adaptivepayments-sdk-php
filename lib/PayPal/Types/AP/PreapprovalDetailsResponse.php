@@ -1,219 +1,42 @@
 <?php
 	namespace PayPal\Types\AP;
 	
-	use DateTime;
 	use PayPal\Core\PPMessage;
 	use PayPal\Types\Common\ErrorData;
 	use PayPal\Types\Common\ResponseEnvelope;
+	
 	/**
 	 * The details of the Preapproval as specified in the
 	 * Preapproval operation.
 	 */
-	class PreapprovalDetailsResponse
-		extends PPMessage {
-		
-		/**
-		 *
-		 * @access public
-		 * @var ResponseEnvelope
-		 */
+	class PreapprovalDetailsResponse extends PPMessage {
 		public ResponseEnvelope $responseEnvelope;
-		
-		/**
-		 *
-		 * @access public
-		 * @var bool
-		 */
-		public bool $approved;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $cancelUrl;
-		
-		/**
-		 *
-		 * @access public
-		 * @var int
-		 */
-		public int $curPayments;
-		
-		/**
-		 *
-		 * @access public
-		 * @var double
-		 */
-		public float $curPaymentsAmount;
-		
-		/**
-		 *
-		 * @access public
-		 * @var int
-		 */
-		public int $curPeriodAttempts;
-		
-		/**
-		 *
-		 * @access public
-		 * @var dateTime
-		 */
-		public DateTime $curPeriodEndingDate;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $currencyCode;
-		
-		/**
-		 *
-		 * @access public
-		 * @var int
-		 */
-		public int $dateOfMonth;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $dayOfWeek;
-		
-		/**
-		 *
-		 * @access public
-		 * @var dateTime
-		 */
-		public DateTime $endingDate;
-		
-		/**
-		 *
-		 * @access public
-		 * @var double
-		 */
-		public float $maxAmountPerPayment;
-		
-		/**
-		 *
-		 * @access public
-		 * @var int
-		 */
-		public int $maxNumberOfPayments;
-		
-		/**
-		 *
-		 * @access public
-		 * @var int
-		 */
-		public int $maxNumberOfPaymentsPerPeriod;
-		
-		/**
-		 *
-		 * @access public
-		 * @var double
-		 */
-		public float $maxTotalAmountOfAllPayments;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $paymentPeriod;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $pinType;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $returnUrl;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $senderEmail;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $memo;
-		
-		/**
-		 *
-		 * @access public
-		 * @var dateTime
-		 */
-		public DateTime $startingDate;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $status;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $ipnNotificationUrl;
-		
-		/**
-		 *
-		 * @access public
-		 * @var AddressList
-		 */
-		public AddressList $addressList;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $feesPayer;
-		
-		/**
-		 *
-		 * @access public
-		 * @var bool
-		 */
-		public bool $displayMaxTotalAmount;
-		
-		/**
-		 *
-		 * @access public
-		 * @var SenderIdentifier
-		 */
+		public bool             $approved;
+		public string           $cancelUrl;
+		public int              $curPayments;
+		public float            $curPaymentsAmount;
+		public int              $curPeriodAttempts;
+		public string           $curPeriodEndingDate;
+		public string           $currencyCode;
+		public int              $dateOfMonth;
+		public string           $dayOfWeek;
+		public string           $endingDate;
+		public float            $maxAmountPerPayment;
+		public int              $maxNumberOfPayments;
+		public int              $maxNumberOfPaymentsPerPeriod;
+		public float            $maxTotalAmountOfAllPayments;
+		public string           $paymentPeriod;
+		public string           $pinType;
+		public string           $returnUrl;
+		public string           $senderEmail;
+		public string           $memo;
+		public string           $startingDate;
+		public string           $status;
+		public string           $ipnNotificationUrl;
+		public AddressList      $addressList;
+		public string           $feesPayer;
+		public bool             $displayMaxTotalAmount;
 		public SenderIdentifier $sender;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $agreementType;
-		
-		/**
-		 *
-		 * @array
-		 * @access public
-		 * @var ErrorData
-		 */
-		public ErrorData $error;
-		
+		public string           $agreementType;
+		public ErrorData        $error;
 	}
