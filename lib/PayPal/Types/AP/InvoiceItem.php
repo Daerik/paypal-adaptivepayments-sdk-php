@@ -48,7 +48,7 @@ class InvoiceItem
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $itemCount;
 

@@ -51,7 +51,7 @@ class PreapprovalRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $dateOfMonth;
 
@@ -87,7 +87,7 @@ class PreapprovalRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $maxNumberOfPayments;
 
@@ -96,7 +96,7 @@ class PreapprovalRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $maxNumberOfPaymentsPerPeriod;
 
@@ -186,7 +186,7 @@ class PreapprovalRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $displayMaxTotalAmount;
 
@@ -195,7 +195,7 @@ class PreapprovalRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $requireInstantFundingSource;
 

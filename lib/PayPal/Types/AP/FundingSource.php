@@ -48,7 +48,7 @@ class FundingSource
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $allowed;
 

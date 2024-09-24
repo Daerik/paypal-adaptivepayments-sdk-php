@@ -51,7 +51,7 @@ class PaymentInfo
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $pendingRefund;
 

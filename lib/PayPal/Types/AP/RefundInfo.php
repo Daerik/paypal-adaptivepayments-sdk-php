@@ -67,7 +67,7 @@ class RefundInfo
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $refundHasBecomeFull;
 

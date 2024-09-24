@@ -42,7 +42,7 @@ class Receiver
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $primary;
 

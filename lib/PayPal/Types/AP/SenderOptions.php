@@ -13,7 +13,7 @@ class SenderOptions
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $requireShippingAddressSelection;
 
@@ -24,7 +24,7 @@ class SenderOptions
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $addressOverride;
 

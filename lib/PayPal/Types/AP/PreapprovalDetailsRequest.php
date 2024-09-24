@@ -30,7 +30,7 @@ class PreapprovalDetailsRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $getBillingAddress;
 

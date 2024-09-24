@@ -112,7 +112,7 @@ class PayRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $reverseAllParallelPaymentsOnError;
 

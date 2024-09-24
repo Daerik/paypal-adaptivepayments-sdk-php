@@ -22,7 +22,7 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $approved;
 
@@ -40,7 +40,7 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $curPayments;
 
@@ -58,7 +58,7 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $curPeriodAttempts;
 
@@ -85,7 +85,7 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $dateOfMonth;
 
@@ -121,7 +121,7 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $maxNumberOfPayments;
 
@@ -130,7 +130,7 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $maxNumberOfPaymentsPerPeriod;
 
@@ -238,7 +238,7 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $displayMaxTotalAmount;
 

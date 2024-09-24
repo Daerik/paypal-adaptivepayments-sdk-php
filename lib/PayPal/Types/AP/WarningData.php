@@ -13,7 +13,7 @@ class WarningData
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $warningId;
 

@@ -14,7 +14,7 @@ class ErrorData
 	 * @access public
 	 
 	 	 	 	 
-	 * @var integer	 
+	 * @var int
 	 */ 
 	public $errorId;
 

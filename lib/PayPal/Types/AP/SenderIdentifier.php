@@ -13,7 +13,7 @@ class SenderIdentifier  extends AccountIdentifier
 	 * @access public
 	 
 	 	 	 	 
-	 * @var boolean	 
+	 * @var bool
 	 */ 
 	public $useCredentials;
 
