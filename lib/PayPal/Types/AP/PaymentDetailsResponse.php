@@ -11,7 +11,7 @@
 	 */
 	class PaymentDetailsResponse extends PPMessage {
 		public ResponseEnvelope    $responseEnvelope;
-		public string              $cancelUrl;
+		public ?string             $cancelUrl = NULL;
 		public string              $currencyCode;
 		public string              $ipnNotificationUrl;
 		public string              $memo;
