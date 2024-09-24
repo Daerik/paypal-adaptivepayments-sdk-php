@@ -52,14 +52,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: CancelPreapproval
+	 *
 	 * @param CancelPreapprovalRequest $cancelPreapprovalRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed               $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\CancelPreapprovalResponse
 	 * @throws APIException
 	 */
-	public function CancelPreapproval($cancelPreapprovalRequest, $apiCredential = NULL) {
+	public function CancelPreapproval(CancelPreapprovalRequest $cancelPreapprovalRequest, mixed $apiCredential = NULL) {
 		$ret = new CancelPreapprovalResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -73,14 +75,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: ConfirmPreapproval
+	 *
 	 * @param ConfirmPreapprovalRequest $confirmPreapprovalRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed                $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\ConfirmPreapprovalResponse
 	 * @throws APIException
 	 */
-	public function ConfirmPreapproval($confirmPreapprovalRequest, $apiCredential = NULL) {
+	public function ConfirmPreapproval(ConfirmPreapprovalRequest $confirmPreapprovalRequest, mixed $apiCredential = NULL) {
 		$ret = new ConfirmPreapprovalResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -94,14 +98,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: ConvertCurrency
+	 *
 	 * @param ConvertCurrencyRequest $convertCurrencyRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed             $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\ConvertCurrencyResponse
 	 * @throws APIException
 	 */
-	public function ConvertCurrency($convertCurrencyRequest, $apiCredential = NULL) {
+	public function ConvertCurrency(ConvertCurrencyRequest $convertCurrencyRequest, mixed $apiCredential = NULL) {
 		$ret = new ConvertCurrencyResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -115,14 +121,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: ExecutePayment
+	 *
 	 * @param ExecutePaymentRequest $executePaymentRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed            $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\ExecutePaymentResponse
 	 * @throws APIException
 	 */
-	public function ExecutePayment($executePaymentRequest, $apiCredential = NULL) {
+	public function ExecutePayment(ExecutePaymentRequest $executePaymentRequest, mixed $apiCredential = NULL) {
 		$ret = new ExecutePaymentResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -136,14 +144,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: GetAllowedFundingSources
+	 *
 	 * @param GetAllowedFundingSourcesRequest $getAllowedFundingSourcesRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed                      $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\GetAllowedFundingSourcesResponse
 	 * @throws APIException
 	 */
-	public function GetAllowedFundingSources($getAllowedFundingSourcesRequest, $apiCredential = NULL) {
+	public function GetAllowedFundingSources(GetAllowedFundingSourcesRequest $getAllowedFundingSourcesRequest, mixed $apiCredential = NULL) {
 		$ret = new GetAllowedFundingSourcesResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -157,14 +167,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: GetPaymentOptions
+	 *
 	 * @param GetPaymentOptionsRequest $getPaymentOptionsRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed               $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\GetPaymentOptionsResponse
 	 * @throws APIException
 	 */
-	public function GetPaymentOptions($getPaymentOptionsRequest, $apiCredential = NULL) {
+	public function GetPaymentOptions(GetPaymentOptionsRequest $getPaymentOptionsRequest, mixed $apiCredential = NULL) {
 		$ret = new GetPaymentOptionsResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -178,14 +190,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: PaymentDetails
+	 *
 	 * @param PaymentDetailsRequest $paymentDetailsRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed            $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\PaymentDetailsResponse
 	 * @throws APIException
 	 */
-	public function PaymentDetails($paymentDetailsRequest, $apiCredential = NULL) {
+	public function PaymentDetails(PaymentDetailsRequest $paymentDetailsRequest, mixed $apiCredential = NULL) {
 		$ret = new PaymentDetailsResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -199,14 +213,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: Pay
+	 *
 	 * @param PayRequest $payRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\PayResponse
 	 * @throws APIException
 	 */
-	public function Pay($payRequest, $apiCredential = NULL) {
+	public function Pay(PayRequest $payRequest, mixed $apiCredential = NULL) {
 		$ret = new PayResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -220,14 +236,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: PreapprovalDetails
+	 *
 	 * @param PreapprovalDetailsRequest $preapprovalDetailsRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed                $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\PreapprovalDetailsResponse
 	 * @throws APIException
 	 */
-	public function PreapprovalDetails($preapprovalDetailsRequest, $apiCredential = NULL) {
+	public function PreapprovalDetails(PreapprovalDetailsRequest $preapprovalDetailsRequest, mixed $apiCredential = NULL) {
 		$ret = new PreapprovalDetailsResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -241,14 +259,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: Preapproval
+	 *
 	 * @param PreapprovalRequest $preapprovalRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed         $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\PreapprovalResponse
 	 * @throws APIException
 	 */
-	public function Preapproval($preapprovalRequest, $apiCredential = NULL) {
+	public function Preapproval(PreapprovalRequest $preapprovalRequest, mixed $apiCredential = NULL) {
 		$ret = new PreapprovalResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -262,14 +282,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: Refund
+	 *
 	 * @param RefundRequest $refundRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed    $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\RefundResponse
 	 * @throws APIException
 	 */
-	public function Refund($refundRequest, $apiCredential = NULL) {
+	public function Refund(RefundRequest $refundRequest, mixed $apiCredential = NULL) {
 		$ret = new RefundResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -283,14 +305,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: SetPaymentOptions
+	 *
 	 * @param SetPaymentOptionsRequest $setPaymentOptionsRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed               $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\SetPaymentOptionsResponse
 	 * @throws APIException
 	 */
-	public function SetPaymentOptions($setPaymentOptionsRequest, $apiCredential = NULL) {
+	public function SetPaymentOptions(SetPaymentOptionsRequest $setPaymentOptionsRequest, mixed $apiCredential = NULL) {
 		$ret = new SetPaymentOptionsResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -304,14 +328,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: GetFundingPlans
+	 *
 	 * @param GetFundingPlansRequest $getFundingPlansRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed             $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\GetFundingPlansResponse
 	 * @throws APIException
 	 */
-	public function GetFundingPlans($getFundingPlansRequest, $apiCredential = NULL) {
+	public function GetFundingPlans(GetFundingPlansRequest $getFundingPlansRequest, mixed $apiCredential = NULL) {
 		$ret = new GetFundingPlansResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -325,14 +351,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: GetAvailableShippingAddresses
+	 *
 	 * @param GetAvailableShippingAddressesRequest $getAvailableShippingAddressesRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed                           $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\GetAvailableShippingAddressesResponse
 	 * @throws APIException
 	 */
-	public function GetAvailableShippingAddresses($getAvailableShippingAddressesRequest, $apiCredential = NULL) {
+	public function GetAvailableShippingAddresses(GetAvailableShippingAddressesRequest $getAvailableShippingAddressesRequest, mixed $apiCredential = NULL) {
 		$ret = new GetAvailableShippingAddressesResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -346,14 +374,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: GetShippingAddresses
+	 *
 	 * @param GetShippingAddressesRequest $getShippingAddressesRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed                  $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\GetShippingAddressesResponse
 	 * @throws APIException
 	 */
-	public function GetShippingAddresses($getShippingAddressesRequest, $apiCredential = NULL) {
+	public function GetShippingAddresses(GetShippingAddressesRequest $getShippingAddressesRequest, mixed $apiCredential = NULL) {
 		$ret = new GetShippingAddressesResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -367,14 +397,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: GetUserLimits
+	 *
 	 * @param GetUserLimitsRequest $getUserLimitsRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed           $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\GetUserLimitsResponse
 	 * @throws APIException
 	 */
-	public function GetUserLimits($getUserLimitsRequest, $apiCredential = NULL) {
+	public function GetUserLimits(GetUserLimitsRequest $getUserLimitsRequest, mixed $apiCredential = NULL) {
 		$ret = new GetUserLimitsResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -388,14 +420,16 @@ class AdaptivePaymentsService extends PPBaseService {
 
 	/**
 	 * Service Call: GetPrePaymentDisclosure
+	 *
 	 * @param GetPrePaymentDisclosureRequest $getPrePaymentDisclosureRequest
-	 * @param mixed $apiCredential - Optional API credential - can either be
+	 * @param null|mixed                     $apiCredential - Optional API credential - can either be
 	 * 		a username configured in sdk_config.ini or a ICredential object
 	 *      created dynamically
+	 *
 	 * @return Types\AP\GetPrePaymentDisclosureResponse
 	 * @throws APIException
 	 */
-	public function GetPrePaymentDisclosure($getPrePaymentDisclosureRequest, $apiCredential = NULL) {
+	public function GetPrePaymentDisclosure(GetPrePaymentDisclosureRequest $getPrePaymentDisclosureRequest, mixed $apiCredential = NULL) {
 		$ret = new GetPrePaymentDisclosureResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
