@@ -1,10 +1,11 @@
 <?php
 	namespace PayPal\Service;
 	
-	use Exception;
 	use PayPal\Common\PPApiContext;
 	use PayPal\Core\PPBaseService;
 	use PayPal\Core\PPUtils;
+	use PayPal\Exception\PPConfigurationException;
+	use PayPal\Exception\PPConnectionException;
 	use PayPal\Handler\PPPlatformServiceHandler;
 	use PayPal\Types;
 	use PayPal\Types\AP\CancelPreapprovalRequest;
@@ -41,6 +42,7 @@
 	use PayPal\Types\AP\RefundResponse;
 	use PayPal\Types\AP\SetPaymentOptionsRequest;
 	use PayPal\Types\AP\SetPaymentOptionsResponse;
+	use ReflectionException;
 	
 	/**
 	 * AUTO GENERATED code for AdaptivePayments
@@ -75,8 +77,10 @@
 		 *                                                a username configured in sdk_config.ini or a ICredential object
 		 *                                                created dynamically
 		 *
-		 * @return Types\AP\CancelPreapprovalResponse
-		 * @throws Exception
+		 * @return CancelPreapprovalResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function CancelPreapproval(CancelPreapprovalRequest $cancelPreapprovalRequest, mixed $apiCredential = NULL): CancelPreapprovalResponse {
 			$ret        = new CancelPreapprovalResponse();
@@ -97,8 +101,10 @@
 		 *                                                 a username configured in sdk_config.ini or a ICredential object
 		 *                                                 created dynamically
 		 *
-		 * @return Types\AP\ConfirmPreapprovalResponse
-		 * @throws Exception
+		 * @return ConfirmPreapprovalResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function ConfirmPreapproval(ConfirmPreapprovalRequest $confirmPreapprovalRequest, mixed $apiCredential = NULL): ConfirmPreapprovalResponse {
 			$ret        = new ConfirmPreapprovalResponse();
@@ -119,8 +125,10 @@
 		 *                                              a username configured in sdk_config.ini or a ICredential object
 		 *                                              created dynamically
 		 *
-		 * @return Types\AP\ConvertCurrencyResponse
-		 * @throws Exception
+		 * @return ConvertCurrencyResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function ConvertCurrency(ConvertCurrencyRequest $convertCurrencyRequest, mixed $apiCredential = NULL): ConvertCurrencyResponse {
 			$ret        = new ConvertCurrencyResponse();
@@ -141,8 +149,10 @@
 		 *                                             a username configured in sdk_config.ini or a ICredential object
 		 *                                             created dynamically
 		 *
-		 * @return Types\AP\ExecutePaymentResponse
-		 * @throws Exception
+		 * @return ExecutePaymentResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function ExecutePayment(ExecutePaymentRequest $executePaymentRequest, mixed $apiCredential = NULL): ExecutePaymentResponse {
 			$ret        = new ExecutePaymentResponse();
@@ -163,8 +173,10 @@
 		 *                                                       a username configured in sdk_config.ini or a ICredential object
 		 *                                                       created dynamically
 		 *
-		 * @return Types\AP\GetAllowedFundingSourcesResponse
-		 * @throws Exception
+		 * @return GetAllowedFundingSourcesResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function GetAllowedFundingSources(GetAllowedFundingSourcesRequest $getAllowedFundingSourcesRequest, mixed $apiCredential = NULL): GetAllowedFundingSourcesResponse {
 			$ret        = new GetAllowedFundingSourcesResponse();
@@ -185,8 +197,10 @@
 		 *                                                a username configured in sdk_config.ini or a ICredential object
 		 *                                                created dynamically
 		 *
-		 * @return Types\AP\GetPaymentOptionsResponse
-		 * @throws Exception
+		 * @return GetPaymentOptionsResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function GetPaymentOptions(GetPaymentOptionsRequest $getPaymentOptionsRequest, mixed $apiCredential = NULL): GetPaymentOptionsResponse {
 			$ret        = new GetPaymentOptionsResponse();
@@ -207,8 +221,10 @@
 		 *                                             a username configured in sdk_config.ini or a ICredential object
 		 *                                             created dynamically
 		 *
-		 * @return Types\AP\PaymentDetailsResponse
-		 * @throws Exception
+		 * @return PaymentDetailsResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function PaymentDetails(PaymentDetailsRequest $paymentDetailsRequest, mixed $apiCredential = NULL): PaymentDetailsResponse {
 			$ret        = new PaymentDetailsResponse();
@@ -229,8 +245,10 @@
 		 *                                  a username configured in sdk_config.ini or a ICredential object
 		 *                                  created dynamically
 		 *
-		 * @return Types\AP\PayResponse
-		 * @throws Exception
+		 * @return PayResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function Pay(PayRequest $payRequest, mixed $apiCredential = NULL): PayResponse {
 			$ret        = new PayResponse();
@@ -251,8 +269,10 @@
 		 *                                                 a username configured in sdk_config.ini or a ICredential object
 		 *                                                 created dynamically
 		 *
-		 * @return Types\AP\PreapprovalDetailsResponse
-		 * @throws Exception
+		 * @return PreapprovalDetailsResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function PreapprovalDetails(PreapprovalDetailsRequest $preapprovalDetailsRequest, mixed $apiCredential = NULL): PreapprovalDetailsResponse {
 			$ret        = new PreapprovalDetailsResponse();
@@ -273,8 +293,10 @@
 		 *                                          a username configured in sdk_config.ini or a ICredential object
 		 *                                          created dynamically
 		 *
-		 * @return Types\AP\PreapprovalResponse
-		 * @throws Exception
+		 * @return PreapprovalResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function Preapproval(PreapprovalRequest $preapprovalRequest, mixed $apiCredential = NULL): PreapprovalResponse {
 			$ret        = new PreapprovalResponse();
@@ -295,8 +317,10 @@
 		 *                                     a username configured in sdk_config.ini or a ICredential object
 		 *                                     created dynamically
 		 *
-		 * @return Types\AP\RefundResponse
-		 * @throws Exception
+		 * @return RefundResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function Refund(RefundRequest $refundRequest, mixed $apiCredential = NULL): RefundResponse {
 			$ret        = new RefundResponse();
@@ -317,8 +341,10 @@
 		 *                                                a username configured in sdk_config.ini or a ICredential object
 		 *                                                created dynamically
 		 *
-		 * @return Types\AP\SetPaymentOptionsResponse
-		 * @throws Exception
+		 * @return SetPaymentOptionsResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function SetPaymentOptions(SetPaymentOptionsRequest $setPaymentOptionsRequest, mixed $apiCredential = NULL): SetPaymentOptionsResponse {
 			$ret        = new SetPaymentOptionsResponse();
@@ -339,8 +365,10 @@
 		 *                                              a username configured in sdk_config.ini or a ICredential object
 		 *                                              created dynamically
 		 *
-		 * @return Types\AP\GetFundingPlansResponse
-		 * @throws Exception
+		 * @return GetFundingPlansResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function GetFundingPlans(GetFundingPlansRequest $getFundingPlansRequest, mixed $apiCredential = NULL): GetFundingPlansResponse {
 			$ret        = new GetFundingPlansResponse();
@@ -361,8 +389,10 @@
 		 *                                                            a username configured in sdk_config.ini or a ICredential object
 		 *                                                            created dynamically
 		 *
-		 * @return Types\AP\GetAvailableShippingAddressesResponse
-		 * @throws Exception
+		 * @return GetAvailableShippingAddressesResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function GetAvailableShippingAddresses(GetAvailableShippingAddressesRequest $getAvailableShippingAddressesRequest, mixed $apiCredential = NULL): GetAvailableShippingAddressesResponse {
 			$ret        = new GetAvailableShippingAddressesResponse();
@@ -383,8 +413,10 @@
 		 *                                                   a username configured in sdk_config.ini or a ICredential object
 		 *                                                   created dynamically
 		 *
-		 * @return Types\AP\GetShippingAddressesResponse
-		 * @throws Exception
+		 * @return GetShippingAddressesResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function GetShippingAddresses(GetShippingAddressesRequest $getShippingAddressesRequest, mixed $apiCredential = NULL): GetShippingAddressesResponse {
 			$ret        = new GetShippingAddressesResponse();
@@ -405,8 +437,10 @@
 		 *                                            a username configured in sdk_config.ini or a ICredential object
 		 *                                            created dynamically
 		 *
-		 * @return Types\AP\GetUserLimitsResponse
-		 * @throws Exception
+		 * @return GetUserLimitsResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function GetUserLimits(GetUserLimitsRequest $getUserLimitsRequest, mixed $apiCredential = NULL): GetUserLimitsResponse {
 			$ret        = new GetUserLimitsResponse();
@@ -427,8 +461,10 @@
 		 *                                                      a username configured in sdk_config.ini or a ICredential object
 		 *                                                      created dynamically
 		 *
-		 * @return Types\AP\GetPrePaymentDisclosureResponse
-		 * @throws Exception
+		 * @return GetPrePaymentDisclosureResponse
+		 * @throws PPConfigurationException
+		 * @throws PPConnectionException
+		 * @throws ReflectionException
 		 */
 		public function GetPrePaymentDisclosure(GetPrePaymentDisclosureRequest $getPrePaymentDisclosureRequest, mixed $apiCredential = NULL): GetPrePaymentDisclosureResponse {
 			$ret        = new GetPrePaymentDisclosureResponse();
