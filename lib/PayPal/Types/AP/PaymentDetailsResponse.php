@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use DateTime;
+use PayPal\Core\PPMessage;
 /**
  * The details of the PayRequest as specified in the Pay
  * operation. 
