@@ -6,7 +6,10 @@
 	 *
 	 */
 	class ReceiverList extends PPMessage {
-		public ?Receiver $receiver;
+		/**
+		 * @var null|Receiver[]
+		 */
+		public ?array $receiver;
 		
 		/**
 		 * Constructor with arguments
