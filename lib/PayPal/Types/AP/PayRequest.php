@@ -9,134 +9,25 @@
 	 * The PayRequest contains the payment instructions to make
 	 * from sender to receivers.
 	 */
-	class PayRequest
-		extends PPMessage {
-		
-		/**
-		 *
-		 * @access public
-		 * @var RequestEnvelope
-		 */
-		public mixed $requestEnvelope;
-		
-		/**
-		 *
-		 * @access public
-		 * @var ClientDetailsType
-		 */
+	class PayRequest extends PPMessage {
+		public ?RequestEnvelope  $requestEnvelope;
 		public ClientDetailsType $clientDetails;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public mixed $actionType;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public mixed $cancelUrl;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public mixed $currencyCode;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $feesPayer;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $ipnNotificationUrl;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $memo;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $pin;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $preapprovalKey;
-		
-		/**
-		 *
-		 * @access public
-		 * @var ReceiverList
-		 */
-		public mixed $receiverList;
-		
-		/**
-		 *
-		 * @access public
-		 * @var bool
-		 */
-		public bool $reverseAllParallelPaymentsOnError;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $senderEmail;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public mixed $returnUrl;
-		
-		/**
-		 *
-		 * @access public
-		 * @var string
-		 */
-		public string $trackingId;
-		
-		/**
-		 *
-		 * @access public
-		 * @var FundingConstraint
-		 */
+		public ?string           $actionType;
+		public ?string           $cancelUrl;
+		public ?string           $currencyCode;
+		public string            $feesPayer;
+		public string            $ipnNotificationUrl;
+		public string            $memo;
+		public string            $pin;
+		public string            $preapprovalKey;
+		public ?ReceiverList     $receiverList;
+		public bool              $reverseAllParallelPaymentsOnError;
+		public string            $senderEmail;
+		public ?string           $returnUrl;
+		public string            $trackingId;
 		public FundingConstraint $fundingConstraint;
-		
-		/**
-		 *
-		 * @access public
-		 * @var SenderIdentifier
-		 */
-		public SenderIdentifier $sender;
-		
-		/**
-		 * The pay key expires after the duration specified in this
-		 * column. If not provided, it defaults to normal expiration
-		 * behavior. Valid values are 5 minutes to 30 days.
-		 */
-		public string $payKeyDuration;
+		public SenderIdentifier  $sender;
+		public string            $payKeyDuration;
 		
 		/**
 		 * Constructor with arguments
