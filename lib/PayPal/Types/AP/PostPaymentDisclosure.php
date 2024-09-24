@@ -27,7 +27,7 @@ class PostPaymentDisclosure
 	 	 	 	 
 	 * @var date	 
 	 */ 
-	public date $fundsAvailabilityDate;
+	public Date $fundsAvailabilityDate;
 
 	/**
 	 * 

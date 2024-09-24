@@ -93,7 +93,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var date	 
 	 */ 
-	public date $dateOfBirth;
+	public Date $dateOfBirth;
 
 	/**
 	 * 

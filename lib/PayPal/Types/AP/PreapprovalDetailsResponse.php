@@ -72,7 +72,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public dateTime $curPeriodEndingDate;
+	public DateTime $curPeriodEndingDate;
 
 	/**
 	 * 
@@ -108,7 +108,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public dateTime $endingDate;
+	public DateTime $endingDate;
 
 	/**
 	 * 
@@ -198,7 +198,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public dateTime $startingDate;
+	public DateTime $startingDate;
 
 	/**
 	 * 

@@ -169,7 +169,7 @@ class PayRequest
 	 	 	 	 
 	 * @var duration	 
 	 */ 
-	public duration $payKeyDuration;
+	public Duration $payKeyDuration;
 
 	/**
 	 * Constructor with arguments

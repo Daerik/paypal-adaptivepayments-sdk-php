@@ -74,7 +74,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public dateTime $endingDate;
+	public DateTime $endingDate;
 
 	/**
 	 * 

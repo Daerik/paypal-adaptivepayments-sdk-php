@@ -17,7 +17,7 @@ class ResponseEnvelope
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public dateTime $timestamp;
+	public DateTime $timestamp;
 
 	/**
 	 * Application level acknowledgment code. 

@@ -172,7 +172,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public dateTime $payKeyExpirationDate;
+	public DateTime $payKeyExpirationDate;
 
 	/**
 	 * 
