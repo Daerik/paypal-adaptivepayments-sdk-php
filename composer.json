@@ -12,6 +12,10 @@
 		{
 			"name": "PayPal",
 			"homepage": "https://github.com/skuola/paypal-adaptivepayments-sdk-php/contributors"
+		},
+		{
+			"name": "Daerik",
+			"homepage": "https://www.daerik.com"
 		}
 	],
 	"repositories": [
