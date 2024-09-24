@@ -1,30 +1,28 @@
-<?php 
-namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
-/**
- * Details about the payer's tax info passed in by the merchant
- * or partner. 
- */
-class TaxIdDetails  
-  extends PPMessage   {
-
+<?php
+	namespace PayPal\Types\AP;
+	
+	use PayPal\Core\PPMessage;
 	/**
-	 * Tax id of the merchant/business. 
-	 * @access public
-	 
-	 	 	 	 
-	 * @var string	 
-	 */ 
-	public string $taxId;
-
-	/**
-	 * Tax type of the Tax Id. 
-	 * @access public
-	 
-	 	 	 	 
-	 * @var string	 
-	 */ 
-	public string $taxIdType;
-
-
-}
+	 * Details about the payer's tax info passed in by the merchant
+	 * or partner.
+	 */
+	class TaxIdDetails
+		extends PPMessage {
+		
+		/**
+		 * Tax id of the merchant/business.
+		 *
+		 * @access public
+		 * @var string
+		 */
+		public string $taxId;
+		
+		/**
+		 * Tax type of the Tax Id.
+		 *
+		 * @access public
+		 * @var string
+		 */
+		public string $taxIdType;
+		
+	}

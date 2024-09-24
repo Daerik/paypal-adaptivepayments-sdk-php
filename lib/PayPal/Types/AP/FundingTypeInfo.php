@@ -1,27 +1,25 @@
-<?php 
-namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
-/**
- * FundingTypeInfo represents one allowed funding type. 
- */
-class FundingTypeInfo  
-  extends PPMessage   {
-
+<?php
+	namespace PayPal\Types\AP;
+	
+	use PayPal\Core\PPMessage;
 	/**
-	 * 
-	 * @access public
-	 
-	 	 	 	 
-	 * @var string	 
-	 */ 
-	public string $fundingType;
-
-	/**
-	 * Constructor with arguments
+	 * FundingTypeInfo represents one allowed funding type.
 	 */
-	public function __construct($fundingType = NULL) {
-		$this->fundingType = $fundingType;
+	class FundingTypeInfo
+		extends PPMessage {
+		
+		/**
+		 *
+		 * @access public
+		 * @var string
+		 */
+		public string $fundingType;
+		
+		/**
+		 * Constructor with arguments
+		 */
+		public function __construct($fundingType = NULL) {
+			$this->fundingType = $fundingType;
+		}
+		
 	}
-
-
-}

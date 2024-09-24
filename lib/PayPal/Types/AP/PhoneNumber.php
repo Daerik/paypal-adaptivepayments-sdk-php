@@ -1,27 +1,24 @@
-<?php 
-namespace PayPal\Types\AP;
-use PayPal\Types\Common\PhoneNumberType; 
-/**
- * Phone number with Type of phone number 
- */
-class PhoneNumber  extends PhoneNumberType  
-  {
-
+<?php
+	namespace PayPal\Types\AP;
+	
+	use PayPal\Types\Common\PhoneNumberType;
 	/**
-	 * 
-	 * @access public
-	 
-	 	 	 	 
-	 * @var string 	 
-	 */ 
-	public mixed $type;
-
-	/**
-	 * Constructor with arguments
+	 * Phone number with Type of phone number
 	 */
-	public function __construct($type = NULL) {
-		$this->type = $type;
+	class PhoneNumber extends PhoneNumberType {
+		
+		/**
+		 *
+		 * @access public
+		 * @var string
+		 */
+		public mixed $type;
+		
+		/**
+		 * Constructor with arguments
+		 */
+		public function __construct($type = NULL) {
+			$this->type = $type;
+		}
+		
 	}
-
-
-}

@@ -1,19 +1,19 @@
-<?php 
-namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
-/**
- * 
- */
-class PostPaymentDisclosureList  
-  extends PPMessage   {
-
+<?php
+	namespace PayPal\Types\AP;
+	
+	use PayPal\Core\PPMessage;
 	/**
-	 * 
-     * @array
-	 * @access public
- * @var PostPaymentDisclosure
-	 */ 
-	public PostPaymentDisclosure $postPaymentDisclosure;
-
-
-}
+	 *
+	 */
+	class PostPaymentDisclosureList
+		extends PPMessage {
+		
+		/**
+		 *
+		 * @array
+		 * @access public
+		 * @var PostPaymentDisclosure
+		 */
+		public PostPaymentDisclosure $postPaymentDisclosure;
+		
+	}

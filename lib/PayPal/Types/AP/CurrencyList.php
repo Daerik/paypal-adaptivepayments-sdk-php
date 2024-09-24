@@ -1,29 +1,27 @@
-<?php 
-namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;
-use PayPal\Types\Common\CurrencyType;
-/**
- * A list of ISO currencies. 
- */
-class CurrencyList  
-  extends PPMessage   {
-
+<?php
+	namespace PayPal\Types\AP;
+	
+	use PayPal\Core\PPMessage;
+	use PayPal\Types\Common\CurrencyType;
 	/**
-	 * 
-     * @array
-	 * @access public
-	 
-	 	 	 	 
-	 * @var CurrencyType
-	 */ 
-	public mixed $currency;
-
-	/**
-	 * Constructor with arguments
+	 * A list of ISO currencies.
 	 */
-	public function __construct($currency = NULL) {
-		$this->currency = $currency;
+	class CurrencyList
+		extends PPMessage {
+		
+		/**
+		 *
+		 * @array
+		 * @access public
+		 * @var CurrencyType
+		 */
+		public mixed $currency;
+		
+		/**
+		 * Constructor with arguments
+		 */
+		public function __construct($currency = NULL) {
+			$this->currency = $currency;
+		}
+		
 	}
-
-
-}
