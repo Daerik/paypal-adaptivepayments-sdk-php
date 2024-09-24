@@ -8,13 +8,13 @@
 	 * The customer of the initiating institution
 	 */
 	class InstitutionCustomer extends PPMessage {
-		public string      $institutionId;
-		public string      $firstName;
-		public string      $lastName;
+		public ?string     $institutionId;
+		public ?string     $firstName;
+		public ?string     $lastName;
 		public string      $middleName;
-		public string      $displayName;
-		public string      $institutionCustomerId;
-		public string      $countryCode;
+		public ?string     $displayName;
+		public ?string     $institutionCustomerId;
+		public ?string     $countryCode;
 		public string      $email;
 		public string      $dateOfBirth;
 		public BaseAddress $address;

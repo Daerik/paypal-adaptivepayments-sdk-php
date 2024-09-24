@@ -5,16 +5,8 @@
 	/**
 	 *
 	 */
-	class ReceiverList
-		extends PPMessage {
-		
-		/**
-		 *
-		 * @array
-		 * @access public
-		 * @var Receiver
-		 */
-		public Receiver $receiver;
+	class ReceiverList extends PPMessage {
+		public ?Receiver $receiver;
 		
 		/**
 		 * Constructor with arguments
