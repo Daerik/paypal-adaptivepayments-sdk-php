@@ -10,10 +10,16 @@
 			"homepage": "https://github.com/skuola/paypal-adaptivepayments-sdk-php/contributors"
 		}
 	],
+	"repositories" : [
+		{
+			"type" : "vcs",
+			"url"  : "https://github.com/daerik/paypal-sdk-core-php"
+		}
+	],
 	"require": {
 		"php": "^8.3",
 		"ext-curl": "*",
-		"Daerik/paypal-sdk-core-php":"dev-master"
+		"skuola/paypal-sdk-core-php":"dev-master"
 	},
 	"autoload": {
 		"psr-0": {
