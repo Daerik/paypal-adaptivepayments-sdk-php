@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\RequestEnvelope;
 /**
  * The request to look up the details of a Preapproval. 
  */
@@ -12,7 +13,7 @@ class PreapprovalDetailsRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\RequestEnvelope	 
+	 * @var RequestEnvelope
 	 */ 
 	public mixed $requestEnvelope;
 

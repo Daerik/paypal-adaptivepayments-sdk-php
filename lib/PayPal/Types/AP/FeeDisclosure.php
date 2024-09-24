@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\CurrencyType;
 /**
  * FeeDisclosure contains the information related to Fees and
  * taxes. 
@@ -13,18 +14,18 @@ class FeeDisclosure
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\CurrencyType	 
+	 * @var CurrencyType
 	 */ 
-	public \PayPal\Types\Common\CurrencyType $fee;
+	public CurrencyType $fee;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\CurrencyType	 
+	 * @var CurrencyType
 	 */ 
-	public \PayPal\Types\Common\CurrencyType $taxes;
+	public CurrencyType $taxes;
 
 
 }

@@ -1,6 +1,8 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\ErrorData;
+use PayPal\Types\Common\ResponseEnvelope;
 /**
  * The PayResponse contains the result of the Pay operation.
  * The payKey and execution status of the request should always
@@ -14,9 +16,9 @@ class PayResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\ResponseEnvelope	 
+	 * @var ResponseEnvelope
 	 */ 
-	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -87,9 +89,9 @@ class PayResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\ErrorData	 
+	 * @var ErrorData
 	 */ 
-	public \PayPal\Types\Common\ErrorData $error;
+	public ErrorData $error;
 
 
 }

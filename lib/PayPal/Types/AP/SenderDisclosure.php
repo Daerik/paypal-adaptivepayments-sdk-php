@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\CurrencyType;
 /**
  * SenderDisclosure contains the disclosure related to Sender 
  */
@@ -12,9 +13,9 @@ class SenderDisclosure
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\CurrencyType	 
+	 * @var CurrencyType
 	 */ 
-	public \PayPal\Types\Common\CurrencyType $amountToTransfer;
+	public CurrencyType $amountToTransfer;
 
 	/**
 	 * 
@@ -30,9 +31,9 @@ class SenderDisclosure
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\CurrencyType	 
+	 * @var CurrencyType
 	 */ 
-	public \PayPal\Types\Common\CurrencyType $totalAmountToTransfer;
+	public CurrencyType $totalAmountToTransfer;
 
 
 }

@@ -1,6 +1,8 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\AccountIdentifier;
+use PayPal\Types\Common\CurrencyType;
 /**
  * ReceiverDisclosure contains the disclosure related to
  * Receiver/Receivers. 
@@ -13,18 +15,18 @@ class ReceiverDisclosure
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\AccountIdentifier	 
+	 * @var AccountIdentifier
 	 */ 
-	public \PayPal\Types\Common\AccountIdentifier $accountIdentifier;
+	public AccountIdentifier $accountIdentifier;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\CurrencyType	 
+	 * @var CurrencyType
 	 */ 
-	public \PayPal\Types\Common\CurrencyType $amountReceivedFromSender;
+	public CurrencyType $amountReceivedFromSender;
 
 	/**
 	 * The two-character ISO country code of the home country of
@@ -59,9 +61,9 @@ class ReceiverDisclosure
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\CurrencyType	 
+	 * @var CurrencyType
 	 */ 
-	public \PayPal\Types\Common\CurrencyType $totalAmountReceived;
+	public CurrencyType $totalAmountReceived;
 
 
 }

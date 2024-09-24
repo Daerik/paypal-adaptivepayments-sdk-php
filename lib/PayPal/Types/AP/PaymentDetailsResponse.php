@@ -2,6 +2,8 @@
 namespace PayPal\Types\AP;
 use DateTime;
 use PayPal\Core\PPMessage;
+use PayPal\Types\Common\ErrorData;
+use PayPal\Types\Common\ResponseEnvelope;
 /**
  * The details of the PayRequest as specified in the Pay
  * operation. 
@@ -14,9 +16,9 @@ class PaymentDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\ResponseEnvelope	 
+	 * @var ResponseEnvelope
 	 */ 
-	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -186,9 +188,9 @@ class PaymentDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\ErrorData	 
+	 * @var ErrorData
 	 */ 
-	public \PayPal\Types\Common\ErrorData $error;
+	public ErrorData $error;
 
 
 }

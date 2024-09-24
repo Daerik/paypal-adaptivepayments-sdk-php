@@ -2,6 +2,8 @@
 namespace PayPal\Types\AP;
 use Cassandra\Duration;
 use PayPal\Core\PPMessage;
+use PayPal\Types\Common\ClientDetailsType;
+use PayPal\Types\Common\RequestEnvelope;
 /**
  * The PayRequest contains the payment instructions to make
  * from sender to receivers. 
@@ -14,7 +16,7 @@ class PayRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\RequestEnvelope	 
+	 * @var RequestEnvelope
 	 */ 
 	public mixed $requestEnvelope;
 
@@ -23,9 +25,9 @@ class PayRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\ClientDetailsType	 
+	 * @var ClientDetailsType
 	 */ 
-	public \PayPal\Types\Common\ClientDetailsType $clientDetails;
+	public ClientDetailsType $clientDetails;
 
 	/**
 	 * 

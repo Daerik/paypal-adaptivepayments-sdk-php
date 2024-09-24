@@ -2,6 +2,7 @@
 namespace PayPal\Types\AP;
 use Cassandra\Date;
 use PayPal\Core\PPMessage;
+use PayPal\Types\Common\AccountIdentifier;
 /**
  * Contains information related to Post Payment Disclosure
  * Details This contains 1.Receivers information 2.Funds
@@ -15,9 +16,9 @@ class PostPaymentDisclosure
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\AccountIdentifier	 
+	 * @var AccountIdentifier
 	 */ 
-	public \PayPal\Types\Common\AccountIdentifier $accountIdentifier;
+	public AccountIdentifier $accountIdentifier;
 
 	/**
 	 * 

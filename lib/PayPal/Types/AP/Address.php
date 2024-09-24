@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\BaseAddress;
 /**
  * 
  */
@@ -21,9 +22,9 @@ class Address
 	 * @access public
 	 
 	 
-	 * @var \PayPal\Types\Common\BaseAddress
+	 * @var BaseAddress
 	 */
-	public \PayPal\Types\Common\BaseAddress $baseAddress;
+	public BaseAddress $baseAddress;
 
 	/**
 	 * 

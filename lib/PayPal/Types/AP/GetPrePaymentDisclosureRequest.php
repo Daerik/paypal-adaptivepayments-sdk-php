@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\RequestEnvelope;
 /**
  * GetPrePaymentDisclosureRequest is used to get the PrePayment
  * Disclosure.; GetPrePaymentDisclosureRequest contains
@@ -23,9 +24,9 @@ class GetPrePaymentDisclosureRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\RequestEnvelope	 
+	 * @var RequestEnvelope
 	 */ 
-	public \PayPal\Types\Common\RequestEnvelope $requestEnvelope;
+	public RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 

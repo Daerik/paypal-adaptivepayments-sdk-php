@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\PhoneNumberType;
 /**
  * Receiver is the party where funds are transferred to. A
  * primary receiver receives a payment directly from the sender
@@ -33,9 +34,9 @@ class Receiver
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\PhoneNumberType	 
+	 * @var PhoneNumberType
 	 */ 
-	public \PayPal\Types\Common\PhoneNumberType $phone;
+	public PhoneNumberType $phone;
 
 	/**
 	 * 

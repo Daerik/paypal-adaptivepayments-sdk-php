@@ -2,6 +2,8 @@
 namespace PayPal\Types\AP;
 use DateTime;
 use PayPal\Core\PPMessage;
+use PayPal\Types\Common\ClientDetailsType;
+use PayPal\Types\Common\RequestEnvelope;
 /**
  * A request to create a Preapproval. A Preapproval is an
  * agreement between a Paypal account holder (the sender) and
@@ -16,7 +18,7 @@ class PreapprovalRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\RequestEnvelope	 
+	 * @var RequestEnvelope
 	 */ 
 	public mixed $requestEnvelope;
 
@@ -25,9 +27,9 @@ class PreapprovalRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\ClientDetailsType	 
+	 * @var ClientDetailsType
 	 */ 
-	public \PayPal\Types\Common\ClientDetailsType $clientDetails;
+	public ClientDetailsType $clientDetails;
 
 	/**
 	 * 

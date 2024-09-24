@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\CurrencyType;
 /**
  * A list of estimated currency conversions for a base
  * currency. 
@@ -13,9 +14,9 @@ class CurrencyConversionList
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\CurrencyType	 
+	 * @var CurrencyType
 	 */ 
-	public \PayPal\Types\Common\CurrencyType $baseAmount;
+	public CurrencyType $baseAmount;
 
 	/**
 	 * 

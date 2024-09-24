@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\CurrencyType;
 /**
  * 
  */
@@ -21,9 +22,9 @@ class UserLimit
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\CurrencyType	 
+	 * @var CurrencyType
 	 */ 
-	public \PayPal\Types\Common\CurrencyType $limitAmount;
+	public CurrencyType $limitAmount;
 
 
 }

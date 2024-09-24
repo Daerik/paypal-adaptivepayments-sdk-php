@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\RequestEnvelope;
 /**
  * A request to convert one or more currencies into their
  * estimated values in other currencies. 
@@ -13,9 +14,9 @@ class ConvertCurrencyRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\RequestEnvelope	 
+	 * @var RequestEnvelope
 	 */ 
-	public \PayPal\Types\Common\RequestEnvelope $requestEnvelope;
+	public RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 

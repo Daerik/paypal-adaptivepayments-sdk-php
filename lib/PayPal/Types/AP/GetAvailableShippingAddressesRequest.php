@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\RequestEnvelope;
 /**
  * The request to get the addresses available for a payment. 
  */
@@ -12,9 +13,9 @@ class GetAvailableShippingAddressesRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\RequestEnvelope	 
+	 * @var RequestEnvelope
 	 */ 
-	public \PayPal\Types\Common\RequestEnvelope $requestEnvelope;
+	public RequestEnvelope $requestEnvelope;
 
 	/**
 	 * The key for which to provide the available addresses. Key

@@ -2,6 +2,7 @@
 namespace PayPal\Types\AP;
 use Cassandra\Date;
 use PayPal\Core\PPMessage;
+use PayPal\Types\Common\BaseAddress;
 /**
  * The customer of the initiating institution 
  */
@@ -99,9 +100,9 @@ class InstitutionCustomer
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\BaseAddress	 
+	 * @var BaseAddress
 	 */ 
-	public \PayPal\Types\Common\BaseAddress $address;
+	public BaseAddress $address;
 
 	/**
 	 * Constructor with arguments

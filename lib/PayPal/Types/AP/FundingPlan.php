@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\CurrencyType;
 /**
  * FundingPlan describes the funding sources to be used for a
  * specific payment. 
@@ -22,9 +23,9 @@ class FundingPlan
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\CurrencyType	 
+	 * @var CurrencyType
 	 */ 
-	public \PayPal\Types\Common\CurrencyType $fundingAmount;
+	public CurrencyType $fundingAmount;
 
 	/**
 	 * 
@@ -40,9 +41,9 @@ class FundingPlan
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\CurrencyType	 
+	 * @var CurrencyType
 	 */ 
-	public \PayPal\Types\Common\CurrencyType $senderFees;
+	public CurrencyType $senderFees;
 
 	/**
 	 * 

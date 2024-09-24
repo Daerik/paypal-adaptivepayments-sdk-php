@@ -1,6 +1,8 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\ErrorData;
+use PayPal\Types\Common\ResponseEnvelope;
 /**
  * A response that contains a table of estimated converted
  * currencies based on the Convert Currency Request. 
@@ -13,9 +15,9 @@ class ConvertCurrencyResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\ResponseEnvelope	 
+	 * @var ResponseEnvelope
 	 */ 
-	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -32,9 +34,9 @@ class ConvertCurrencyResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\ErrorData	 
+	 * @var ErrorData
 	 */ 
-	public \PayPal\Types\Common\ErrorData $error;
+	public ErrorData $error;
 
 
 }

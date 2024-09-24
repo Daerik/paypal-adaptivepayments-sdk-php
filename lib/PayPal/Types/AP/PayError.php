@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\ErrorData;
 /**
  * The error that resulted from an attempt to make a payment to
  * a receiver. 
@@ -22,9 +23,9 @@ class PayError
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\ErrorData	 
+	 * @var ErrorData
 	 */ 
-	public \PayPal\Types\Common\ErrorData $error;
+	public ErrorData $error;
 
 
 }

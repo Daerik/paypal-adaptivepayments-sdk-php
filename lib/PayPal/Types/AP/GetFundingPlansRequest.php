@@ -1,6 +1,7 @@
 <?php 
 namespace PayPal\Types\AP;
-use PayPal\Core\PPMessage;  
+use PayPal\Core\PPMessage;
+use PayPal\Types\Common\RequestEnvelope;
 /**
  * The request to get the funding plans available for a
  * payment. 
@@ -13,9 +14,9 @@ class GetFundingPlansRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\Common\RequestEnvelope	 
+	 * @var RequestEnvelope
 	 */ 
-	public \PayPal\Types\Common\RequestEnvelope $requestEnvelope;
+	public RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 
