@@ -1,24 +1,24 @@
 {
-    "name": "skuola/paypal-adaptivepayments-sdk-php",
-    "description": "PayPal adaptivepayments SDK for PHP",
-    "keywords": ["paypal", "php", "sdk"],
-    "homepage": "https://developer.paypal.com",
-    "license": "Apache2",
-    "authors": [
-        {
-            "name": "PayPal",
-            "homepage": "https://github.com/skuola/paypal-adaptivepayments-sdk-php/contributors"
-        }
-    ],
-    "require": {
-        "php": "^8.3",
-        "ext-curl": "*",
-        "skuola/paypal-sdk-core-php":"dev-master"
-    },
-    "autoload": {
-        "psr-0": {
-            "PayPal\\Service": "lib/",
-            "PayPal\\Types": "lib/"
-        }
-    }
+	"name": "Daerik/paypal-adaptivepayments-sdk-php",
+	"description": "PayPal adaptivepayments SDK for PHP",
+	"keywords": ["paypal", "php", "sdk"],
+	"homepage": "https://developer.paypal.com",
+	"license": "Apache2",
+	"authors": [
+		{
+			"name": "PayPal",
+			"homepage": "https://github.com/skuola/paypal-adaptivepayments-sdk-php/contributors"
+		}
+	],
+	"require": {
+		"php": "^8.3",
+		"ext-curl": "*",
+		"Daerik/paypal-sdk-core-php":"dev-master"
+	},
+	"autoload": {
+		"psr-0": {
+			"PayPal\\Service": "lib/",
+			"PayPal\\Types": "lib/"
+		}
+	}
 }
