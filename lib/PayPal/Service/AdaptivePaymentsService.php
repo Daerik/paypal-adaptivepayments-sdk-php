@@ -2,7 +2,6 @@
 namespace PayPal\Service;
 use Exception;
 use PayPal\Common\PPApiContext;
-use PayPal\Core\PPMessage;
 use PayPal\Core\PPBaseService;
 use PayPal\Core\PPUtils;
 use PayPal\Types;
