@@ -8,8 +8,8 @@
 	 * a service.
 	 */
 	class ResponseEnvelope extends PPMessage {
-		public string $timestamp;
-		public string $ack;
-		public string $correlationId;
-		public string $build;
+		public ?string $timestamp     = NULL;
+		public ?string $ack           = NULL;
+		public ?string $correlationId = NULL;
+		public ?string $build         = NULL;
 	}
