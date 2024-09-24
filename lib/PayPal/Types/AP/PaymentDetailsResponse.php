@@ -18,7 +18,7 @@
 		public PaymentInfoList     $paymentInfoList;
 		public ?string             $returnUrl = NULL;
 		public string              $senderEmail;
-		public string              $status;
+		public ?string             $status    = NULL;
 		public string              $trackingId;
 		public string              $payKey;
 		public string              $actionType;
