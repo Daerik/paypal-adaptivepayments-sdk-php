@@ -12,7 +12,7 @@
 	 */
 	class PayResponse extends PPMessage {
 		public ?ResponseEnvelope $responseEnvelope = NULL;
-		public string            $payKey;
+		public ?string           $payKey           = NULL;
 		public string            $paymentExecStatus;
 		public PayErrorList      $payErrorList;
 		public PaymentInfoList   $paymentInfoList;
