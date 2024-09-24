@@ -1,10 +1,10 @@
 <?php
 	namespace PayPal\Types\AP;
 	
-	use Cassandra\Duration;
 	use PayPal\Core\PPMessage;
 	use PayPal\Types\Common\ClientDetailsType;
 	use PayPal\Types\Common\RequestEnvelope;
+	
 	/**
 	 * The PayRequest contains the payment instructions to make
 	 * from sender to receivers.
@@ -135,11 +135,8 @@
 		 * The pay key expires after the duration specified in this
 		 * column. If not provided, it defaults to normal expiration
 		 * behavior. Valid values are 5 minutes to 30 days.
-		 *
-		 * @access public
-		 * @var duration
 		 */
-		public Duration $payKeyDuration;
+		public string $payKeyDuration;
 		
 		/**
 		 * Constructor with arguments
