@@ -11,17 +11,9 @@
 		public ?RequestEnvelope $requestEnvelope;
 		public ?string          $payKey;
 		public InitiatingEntity $initiatingEntity;
+		public DisplayOptions   $displayOptions;
 		public string           $shippingAddressId;
-		
-		/**
-		 * @var DisplayOptions[]
-		 */
-		public array $displayOptions;
-		
-		/**
-		 * @var SenderOptions[]
-		 */
-		public array $senderOptions;
+		public SenderOptions    $senderOptions;
 		
 		/**
 		 * @var ReceiverOptions[]
