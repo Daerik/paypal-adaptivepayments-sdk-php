@@ -12,12 +12,10 @@ class InvoiceData
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\InvoiceItem	 
+ * @var InvoiceItem
 	 */ 
-	public \PayPal\Types\AP\InvoiceItem $item;
-
+	public InvoiceItem $item;
+	
 	/**
 	 * 
 	 * @access public

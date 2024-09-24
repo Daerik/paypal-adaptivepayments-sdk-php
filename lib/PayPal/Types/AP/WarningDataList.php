@@ -11,11 +11,9 @@ class WarningDataList
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\WarningData	 
+ * @var WarningData
 	 */ 
-	public \PayPal\Types\AP\WarningData $warningData;
+	public WarningData $warningData;
 
 
 }

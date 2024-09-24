@@ -41,20 +41,16 @@ class ReceiverDisclosure
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\ConversionRate	 
+ * @var ConversionRate
 	 */ 
-	public \PayPal\Types\AP\ConversionRate $conversionRate;
+	public ConversionRate $conversionRate;
 
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\FeeDisclosure	 
+ * @var FeeDisclosure
 	 */ 
-	public \PayPal\Types\AP\FeeDisclosure $feeDisclosure;
+	public FeeDisclosure $feeDisclosure;
 
 	/**
 	 * 

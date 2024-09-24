@@ -22,20 +22,16 @@ class GetUserLimitsResponse
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\UserLimit	 
+ * @var UserLimit
 	 */ 
-	public \PayPal\Types\AP\UserLimit $userLimit;
-
+	public UserLimit $userLimit;
+	
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\WarningDataList	 
+ * @var WarningDataList
 	 */ 
-	public \PayPal\Types\AP\WarningDataList $warningDataList;
+	public WarningDataList $warningDataList;
 
 	/**
 	 * 

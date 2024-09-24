@@ -30,11 +30,9 @@ class FundingPlan
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\FundingSource	 
+ * @var FundingSource
 	 */ 
-	public \PayPal\Types\AP\FundingSource $backupFundingSource;
+	public FundingSource $backupFundingSource;
 
 	/**
 	 * 
@@ -48,21 +46,16 @@ class FundingPlan
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\CurrencyConversion	 
+ * @var CurrencyConversion
 	 */ 
-	public \PayPal\Types\AP\CurrencyConversion $currencyConversion;
+	public CurrencyConversion $currencyConversion;
 
 	/**
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\FundingPlanCharge	 
+ * @var FundingPlanCharge
 	 */ 
-	public \PayPal\Types\AP\FundingPlanCharge $charge;
-
-
+	public FundingPlanCharge $charge;
+	
 }

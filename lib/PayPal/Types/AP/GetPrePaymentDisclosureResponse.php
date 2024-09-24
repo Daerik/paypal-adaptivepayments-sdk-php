@@ -56,20 +56,16 @@ class GetPrePaymentDisclosureResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\SenderDisclosure	 
+ * @var SenderDisclosure
 	 */ 
-	public \PayPal\Types\AP\SenderDisclosure $senderDisclosure;
+	public SenderDisclosure $senderDisclosure;
 
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\ReceiverDisclosureList	 
+ * @var ReceiverDisclosureList
 	 */ 
-	public \PayPal\Types\AP\ReceiverDisclosureList $receiverDisclosureList;
+	public ReceiverDisclosureList $receiverDisclosureList;
 
 	/**
 	 * 

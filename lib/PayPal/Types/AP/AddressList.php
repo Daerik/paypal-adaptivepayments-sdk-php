@@ -11,11 +11,8 @@ class AddressList
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\Address
+ * @var Address
 	 */ 
-	public \PayPal\Types\AP\Address $address;
-
-
+	public Address $address;
+	
 }

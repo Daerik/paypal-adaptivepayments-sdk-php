@@ -13,11 +13,9 @@ class InitiatingEntity
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\InstitutionCustomer	 
+ * @var InstitutionCustomer
 	 */ 
-	public \PayPal\Types\AP\InstitutionCustomer $institutionCustomer;
+	public InstitutionCustomer $institutionCustomer;
 
 
 }

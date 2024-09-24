@@ -221,11 +221,9 @@ class PreapprovalDetailsResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\AddressList	 
+ * @var AddressList
 	 */ 
-	public \PayPal\Types\AP\AddressList $addressList;
+	public AddressList $addressList;
 
 	/**
 	 * 
@@ -248,12 +246,10 @@ class PreapprovalDetailsResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\SenderIdentifier	 
+ * @var SenderIdentifier
 	 */ 
-	public \PayPal\Types\AP\SenderIdentifier $sender;
-
+	public SenderIdentifier $sender;
+	
 	/**
 	 * 
 	 * @access public

@@ -59,11 +59,9 @@ class RefundRequest
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\ReceiverList	 
+ * @var ReceiverList
 	 */ 
-	public \PayPal\Types\AP\ReceiverList $receiverList;
+	public ReceiverList $receiverList;
 
 	/**
 	 * Constructor with arguments

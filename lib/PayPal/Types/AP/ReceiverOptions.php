@@ -29,18 +29,16 @@ class ReceiverOptions
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\InvoiceData	 
+ * @var InvoiceData
 	 */ 
-	public \PayPal\Types\AP\InvoiceData $invoiceData;
+	public InvoiceData $invoiceData;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\AP\ReceiverIdentifier	 
+	 * @var ReceiverIdentifier
 	 */ 
 	public mixed $receiver;
 

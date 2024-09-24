@@ -11,11 +11,8 @@ class RefundInfoList
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\RefundInfo	 
+ * @var RefundInfo
 	 */ 
-	public \PayPal\Types\AP\RefundInfo $refundInfo;
-
-
+	public RefundInfo $refundInfo;
+	
 }

@@ -23,7 +23,7 @@ class ConvertCurrencyRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\AP\CurrencyList	 
+	 * @var CurrencyList
 	 */ 
 	public mixed $baseAmountList;
 
@@ -32,7 +32,7 @@ class ConvertCurrencyRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\AP\CurrencyCodeList	 
+	 * @var CurrencyCodeList
 	 */ 
 	public mixed $convertToCurrencyList;
 

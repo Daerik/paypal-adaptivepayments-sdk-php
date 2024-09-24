@@ -21,20 +21,16 @@ class GetPaymentOptionsResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\InitiatingEntity	 
+ * @var InitiatingEntity
 	 */ 
-	public \PayPal\Types\AP\InitiatingEntity $initiatingEntity;
+	public InitiatingEntity $initiatingEntity;
 
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\DisplayOptions	 
+ * @var DisplayOptions
 	 */ 
-	public \PayPal\Types\AP\DisplayOptions $displayOptions;
+	public DisplayOptions $displayOptions;
 
 	/**
 	 * 
@@ -48,21 +44,17 @@ class GetPaymentOptionsResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\SenderOptions	 
+ * @var SenderOptions
 	 */ 
-	public \PayPal\Types\AP\SenderOptions $senderOptions;
+	public SenderOptions $senderOptions;
 
 	/**
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\ReceiverOptions	 
+ * @var ReceiverOptions
 	 */ 
-	public \PayPal\Types\AP\ReceiverOptions $receiverOptions;
+	public ReceiverOptions $receiverOptions;
 
 	/**
 	 * 

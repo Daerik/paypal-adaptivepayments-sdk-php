@@ -41,47 +41,37 @@ class PayResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\PayErrorList	 
+ * @var PayErrorList
 	 */ 
-	public \PayPal\Types\AP\PayErrorList $payErrorList;
+	public PayErrorList $payErrorList;
 
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\PaymentInfoList	 
+ * @var PaymentInfoList
 	 */ 
-	public \PayPal\Types\AP\PaymentInfoList $paymentInfoList;
+	public PaymentInfoList $paymentInfoList;
 
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\SenderIdentifier	 
+ * @var SenderIdentifier
 	 */ 
-	public \PayPal\Types\AP\SenderIdentifier $sender;
+	public SenderIdentifier $sender;
+	
+	/**
+	 * 
+	 * @access public
+ * @var FundingPlan
+	 */ 
+	public FundingPlan $defaultFundingPlan;
 
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\FundingPlan	 
+ * @var WarningDataList
 	 */ 
-	public \PayPal\Types\AP\FundingPlan $defaultFundingPlan;
-
-	/**
-	 * 
-	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\WarningDataList	 
-	 */ 
-	public \PayPal\Types\AP\WarningDataList $warningDataList;
+	public WarningDataList $warningDataList;
 
 	/**
 	 * 

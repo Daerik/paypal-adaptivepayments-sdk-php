@@ -23,11 +23,9 @@ class GetAllowedFundingSourcesResponse
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\FundingSource	 
+ * @var FundingSource
 	 */ 
-	public \PayPal\Types\AP\FundingSource $fundingSource;
+	public FundingSource $fundingSource;
 
 	/**
 	 * 

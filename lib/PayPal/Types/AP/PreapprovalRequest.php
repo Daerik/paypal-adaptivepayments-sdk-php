@@ -205,12 +205,10 @@ class PreapprovalRequest
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\SenderIdentifier	 
+ * @var SenderIdentifier
 	 */ 
-	public \PayPal\Types\AP\SenderIdentifier $sender;
-
+	public SenderIdentifier $sender;
+	
 	/**
 	 * Constructor with arguments
 	 */

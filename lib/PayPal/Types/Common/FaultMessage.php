@@ -12,22 +12,17 @@ class FaultMessage
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\Common\ResponseEnvelope	 
+ * @var ResponseEnvelope
 	 */ 
-	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\Common\ErrorData	 
+ * @var ErrorData
 	 */ 
-	public \PayPal\Types\Common\ErrorData $error;
-
-
+	public ErrorData $error;
+	
 }
 }

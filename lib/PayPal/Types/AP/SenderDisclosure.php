@@ -20,11 +20,9 @@ class SenderDisclosure
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\FeeDisclosure	 
+ * @var FeeDisclosure
 	 */ 
-	public \PayPal\Types\AP\FeeDisclosure $feeDisclosure;
+	public FeeDisclosure $feeDisclosure;
 
 	/**
 	 * 

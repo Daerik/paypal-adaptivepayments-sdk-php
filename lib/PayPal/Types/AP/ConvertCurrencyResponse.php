@@ -22,11 +22,9 @@ class ConvertCurrencyResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\CurrencyConversionTable	 
+ * @var CurrencyConversionTable
 	 */ 
-	public \PayPal\Types\AP\CurrencyConversionTable $estimatedAmountTable;
+	public CurrencyConversionTable $estimatedAmountTable;
 
 	/**
 	 * 

@@ -40,11 +40,9 @@ class GetPrePaymentDisclosureRequest
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\ReceiverInfoList	 
+ * @var ReceiverInfoList
 	 */ 
-	public \PayPal\Types\AP\ReceiverInfoList $receiverInfoList;
+	public ReceiverInfoList $receiverInfoList;
 
 	/**
 	 * Constructor with arguments

@@ -12,11 +12,9 @@ class CurrencyConversionTable
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\CurrencyConversionList	 
+ * @var CurrencyConversionList
 	 */ 
-	public \PayPal\Types\AP\CurrencyConversionList $currencyConversionList;
+	public CurrencyConversionList $currencyConversionList;
 
 
 }

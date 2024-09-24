@@ -31,12 +31,10 @@ class PaymentInfo
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\Receiver	 
+ * @var Receiver
 	 */ 
-	public \PayPal\Types\AP\Receiver $receiver;
-
+	public Receiver $receiver;
+	
 	/**
 	 * 
 	 * @access public

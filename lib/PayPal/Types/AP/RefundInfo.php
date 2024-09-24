@@ -11,12 +11,10 @@ class RefundInfo
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\Receiver	 
+ * @var Receiver
 	 */ 
-	public \PayPal\Types\AP\Receiver $receiver;
-
+	public Receiver $receiver;
+	
 	/**
 	 * 
 	 * @access public
@@ -92,11 +90,8 @@ class RefundInfo
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\ErrorList	 
+ * @var ErrorList
 	 */ 
-	public \PayPal\Types\AP\ErrorList $errorList;
-
-
+	public ErrorList $errorList;
+	
 }

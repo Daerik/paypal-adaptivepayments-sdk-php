@@ -106,7 +106,7 @@ class PayRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var \PayPal\Types\AP\ReceiverList	 
+	 * @var ReceiverList
 	 */ 
 	public mixed $receiverList;
 
@@ -149,21 +149,17 @@ class PayRequest
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\FundingConstraint	 
+ * @var FundingConstraint
 	 */ 
-	public \PayPal\Types\AP\FundingConstraint $fundingConstraint;
+	public FundingConstraint $fundingConstraint;
 
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\SenderIdentifier	 
+ * @var SenderIdentifier
 	 */ 
-	public \PayPal\Types\AP\SenderIdentifier $sender;
-
+	public SenderIdentifier $sender;
+	
 	/**
 	 * The pay key expires after the duration specified in this
 	 * column. If not provided, it defaults to normal expiration

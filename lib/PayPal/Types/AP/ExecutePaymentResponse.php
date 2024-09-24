@@ -30,20 +30,16 @@ class ExecutePaymentResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\PayErrorList	 
+ * @var PayErrorList
 	 */ 
-	public \PayPal\Types\AP\PayErrorList $payErrorList;
+	public PayErrorList $payErrorList;
 
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\PostPaymentDisclosureList	 
+ * @var PostPaymentDisclosureList
 	 */ 
-	public \PayPal\Types\AP\PostPaymentDisclosureList $postPaymentDisclosureList;
+	public PostPaymentDisclosureList $postPaymentDisclosureList;
 
 	/**
 	 * 

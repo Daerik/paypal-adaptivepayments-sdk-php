@@ -22,11 +22,9 @@ class GetShippingAddressesResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\Address	 
+ * @var Address
 	 */ 
-	public \PayPal\Types\AP\Address $selectedAddress;
+	public Address $selectedAddress;
 
 	/**
 	 * 

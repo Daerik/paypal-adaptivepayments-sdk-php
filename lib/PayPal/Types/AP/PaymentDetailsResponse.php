@@ -59,11 +59,9 @@ class PaymentDetailsResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\PaymentInfoList	 
+ * @var PaymentInfoList
 	 */ 
-	public \PayPal\Types\AP\PaymentInfoList $paymentInfoList;
+	public PaymentInfoList $paymentInfoList;
 
 	/**
 	 * 
@@ -149,29 +147,23 @@ class PaymentDetailsResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\FundingConstraint	 
+ * @var FundingConstraint
 	 */ 
-	public \PayPal\Types\AP\FundingConstraint $fundingConstraint;
+	public FundingConstraint $fundingConstraint;
 
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\SenderIdentifier	 
+ * @var SenderIdentifier
 	 */ 
-	public \PayPal\Types\AP\SenderIdentifier $sender;
-
+	public SenderIdentifier $sender;
+	
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\ShippingAddressInfo	 
+ * @var ShippingAddressInfo
 	 */ 
-	public \PayPal\Types\AP\ShippingAddressInfo $shippingAddress;
+	public ShippingAddressInfo $shippingAddress;
 
 	/**
 	 * 

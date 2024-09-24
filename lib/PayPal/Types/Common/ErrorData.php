@@ -76,12 +76,9 @@ class ErrorData
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\Common\ErrorParameter	 
+ * @var ErrorParameter
 	 */ 
-	public \PayPal\Types\Common\ErrorParameter $parameter;
-
-
+	public ErrorParameter $parameter;
+	
 }
 }

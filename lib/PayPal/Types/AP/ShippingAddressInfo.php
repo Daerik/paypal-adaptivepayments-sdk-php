@@ -74,11 +74,8 @@ class ShippingAddressInfo
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\PhoneNumber	 
+ * @var PhoneNumber
 	 */ 
-	public \PayPal\Types\AP\PhoneNumber $phone;
-
-
+	public PhoneNumber $phone;
+	
 }

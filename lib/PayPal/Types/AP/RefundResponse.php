@@ -30,11 +30,9 @@ class RefundResponse
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\RefundInfoList	 
+ * @var RefundInfoList
 	 */ 
-	public \PayPal\Types\AP\RefundInfoList $refundInfoList;
+	public RefundInfoList $refundInfoList;
 
 	/**
 	 * 

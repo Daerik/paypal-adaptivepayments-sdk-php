@@ -11,11 +11,9 @@ class ReceiverDisclosureList
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\ReceiverDisclosure	 
+ * @var ReceiverDisclosure
 	 */ 
-	public \PayPal\Types\AP\ReceiverDisclosure $receiverDisclosure;
+	public ReceiverDisclosure $receiverDisclosure;
 
 
 }

@@ -21,11 +21,9 @@ class CurrencyConversionList
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\CurrencyList	 
+ * @var CurrencyList
 	 */ 
-	public \PayPal\Types\AP\CurrencyList $currencyList;
+	public CurrencyList $currencyList;
 
 
 }

@@ -23,11 +23,9 @@ class GetFundingPlansResponse
 	 * 
      * @array
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\FundingPlan	 
+ * @var FundingPlan
 	 */ 
-	public \PayPal\Types\AP\FundingPlan $fundingPlan;
+	public FundingPlan $fundingPlan;
 
 	/**
 	 * 

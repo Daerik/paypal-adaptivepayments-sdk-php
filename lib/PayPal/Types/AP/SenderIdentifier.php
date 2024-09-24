@@ -20,11 +20,9 @@ class SenderIdentifier  extends AccountIdentifier
 	/**
 	 * 
 	 * @access public
-	 
-	 	 	 	 
-	 * @var \PayPal\Types\AP\TaxIdDetails	 
+ * @var TaxIdDetails
 	 */ 
-	public \PayPal\Types\AP\TaxIdDetails $taxIdDetails;
+	public TaxIdDetails $taxIdDetails;
 
 
 }
