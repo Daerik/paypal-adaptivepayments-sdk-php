@@ -15,7 +15,7 @@ class PayErrorList
 	 	 	 	 
 	 * @var PayPal\Types\AP\PayError	 
 	 */ 
-	public $payError;
+	public PayPal\Types\AP\PayError $payError;
 
 
 }

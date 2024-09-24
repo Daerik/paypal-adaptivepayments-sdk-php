@@ -15,7 +15,7 @@ class CurrencyConversionList
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $baseAmount;
+	public PayPal\Types\Common\CurrencyType $baseAmount;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class CurrencyConversionList
 	 	 	 	 
 	 * @var PayPal\Types\AP\CurrencyList	 
 	 */ 
-	public $currencyList;
+	public PayPal\Types\AP\CurrencyList $currencyList;
 
 
 }

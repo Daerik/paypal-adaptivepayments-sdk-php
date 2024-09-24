@@ -14,7 +14,7 @@ class FundingSource
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $lastFourOfAccountNumber;
+	public string $lastFourOfAccountNumber;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class FundingSource
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $type;
+	public string $type;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class FundingSource
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $displayName;
+	public string $displayName;
 
 	/**
 	 * 
@@ -41,7 +41,7 @@ class FundingSource
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $fundingSourceId;
+	public string $fundingSourceId;
 
 	/**
 	 * 
@@ -50,7 +50,7 @@ class FundingSource
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $allowed;
+	public bool $allowed;
 
 
 }

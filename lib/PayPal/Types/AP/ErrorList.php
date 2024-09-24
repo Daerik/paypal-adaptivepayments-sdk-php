@@ -15,7 +15,7 @@ class ErrorList
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

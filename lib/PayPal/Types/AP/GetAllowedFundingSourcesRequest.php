@@ -15,7 +15,7 @@ class GetAllowedFundingSourcesRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class GetAllowedFundingSourcesRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $key;
+	public mixed $key;
 
 	/**
 	 * Constructor with arguments

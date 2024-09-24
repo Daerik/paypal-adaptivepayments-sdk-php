@@ -14,7 +14,7 @@ class GetPaymentOptionsResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public $responseEnvelope;
+	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class GetPaymentOptionsResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\InitiatingEntity	 
 	 */ 
-	public $initiatingEntity;
+	public PayPal\Types\AP\InitiatingEntity $initiatingEntity;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class GetPaymentOptionsResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\DisplayOptions	 
 	 */ 
-	public $displayOptions;
+	public PayPal\Types\AP\DisplayOptions $displayOptions;
 
 	/**
 	 * 
@@ -41,7 +41,7 @@ class GetPaymentOptionsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $shippingAddressId;
+	public string $shippingAddressId;
 
 	/**
 	 * 
@@ -50,7 +50,7 @@ class GetPaymentOptionsResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\SenderOptions	 
 	 */ 
-	public $senderOptions;
+	public PayPal\Types\AP\SenderOptions $senderOptions;
 
 	/**
 	 * 
@@ -60,7 +60,7 @@ class GetPaymentOptionsResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\ReceiverOptions	 
 	 */ 
-	public $receiverOptions;
+	public PayPal\Types\AP\ReceiverOptions $receiverOptions;
 
 	/**
 	 * 
@@ -70,7 +70,7 @@ class GetPaymentOptionsResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

@@ -14,7 +14,7 @@ class CurrencyConversion
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $from;
+	public PayPal\Types\Common\CurrencyType $from;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class CurrencyConversion
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $to;
+	public PayPal\Types\Common\CurrencyType $to;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class CurrencyConversion
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $exchangeRate;
+	public float $exchangeRate;
 
 
 }

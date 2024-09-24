@@ -14,7 +14,7 @@ class ExecutePaymentResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public $responseEnvelope;
+	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class ExecutePaymentResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $paymentExecStatus;
+	public string $paymentExecStatus;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class ExecutePaymentResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\PayErrorList	 
 	 */ 
-	public $payErrorList;
+	public PayPal\Types\AP\PayErrorList $payErrorList;
 
 	/**
 	 * 
@@ -41,7 +41,7 @@ class ExecutePaymentResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\PostPaymentDisclosureList	 
 	 */ 
-	public $postPaymentDisclosureList;
+	public PayPal\Types\AP\PostPaymentDisclosureList $postPaymentDisclosureList;
 
 	/**
 	 * 
@@ -51,7 +51,7 @@ class ExecutePaymentResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

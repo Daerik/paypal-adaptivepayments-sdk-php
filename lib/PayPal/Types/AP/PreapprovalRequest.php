@@ -17,7 +17,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public mixed $requestEnvelope;
 
 	/**
 	 * 
@@ -26,7 +26,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\ClientDetailsType	 
 	 */ 
-	public $clientDetails;
+	public PayPal\Types\Common\ClientDetailsType $clientDetails;
 
 	/**
 	 * 
@@ -35,7 +35,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $cancelUrl;
+	public mixed $cancelUrl;
 
 	/**
 	 * 
@@ -44,7 +44,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $currencyCode;
+	public mixed $currencyCode;
 
 	/**
 	 * 
@@ -53,7 +53,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $dateOfMonth;
+	public int $dateOfMonth;
 
 	/**
 	 * 
@@ -62,7 +62,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var string 	 
 	 */ 
-	public $dayOfWeek;
+	public string $dayOfWeek;
 
 	/**
 	 * 
@@ -71,7 +71,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public $endingDate;
+	public dateTime $endingDate;
 
 	/**
 	 * 
@@ -80,7 +80,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $maxAmountPerPayment;
+	public float $maxAmountPerPayment;
 
 	/**
 	 * 
@@ -89,7 +89,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $maxNumberOfPayments;
+	public int $maxNumberOfPayments;
 
 	/**
 	 * 
@@ -98,7 +98,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $maxNumberOfPaymentsPerPeriod;
+	public int $maxNumberOfPaymentsPerPeriod;
 
 	/**
 	 * 
@@ -107,7 +107,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $maxTotalAmountOfAllPayments;
+	public float $maxTotalAmountOfAllPayments;
 
 	/**
 	 * 
@@ -116,7 +116,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $paymentPeriod;
+	public string $paymentPeriod;
 
 	/**
 	 * 
@@ -125,7 +125,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $returnUrl;
+	public mixed $returnUrl;
 
 	/**
 	 * 
@@ -134,7 +134,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $memo;
+	public string $memo;
 
 	/**
 	 * 
@@ -143,7 +143,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $ipnNotificationUrl;
+	public string $ipnNotificationUrl;
 
 	/**
 	 * 
@@ -152,7 +152,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $senderEmail;
+	public string $senderEmail;
 
 	/**
 	 * 
@@ -161,7 +161,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public $startingDate;
+	public mixed $startingDate;
 
 	/**
 	 * 
@@ -170,7 +170,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $pinType;
+	public string $pinType;
 
 	/**
 	 * 
@@ -179,7 +179,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $feesPayer;
+	public string $feesPayer;
 
 	/**
 	 * 
@@ -188,7 +188,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $displayMaxTotalAmount;
+	public bool $displayMaxTotalAmount;
 
 	/**
 	 * 
@@ -197,7 +197,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $requireInstantFundingSource;
+	public bool $requireInstantFundingSource;
 
 	/**
 	 * 
@@ -206,7 +206,7 @@ class PreapprovalRequest
 	 	 	 	 
 	 * @var PayPal\Types\AP\SenderIdentifier	 
 	 */ 
-	public $sender;
+	public PayPal\Types\AP\SenderIdentifier $sender;
 
 	/**
 	 * Constructor with arguments

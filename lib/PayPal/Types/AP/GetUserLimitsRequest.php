@@ -14,7 +14,7 @@ class GetUserLimitsRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public mixed $requestEnvelope;
 
 	/**
 	 * The account identifier for the user 
@@ -23,7 +23,7 @@ class GetUserLimitsRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\AccountIdentifier	 
 	 */ 
-	public $user;
+	public mixed $user;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class GetUserLimitsRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $country;
+	public mixed $country;
 
 	/**
 	 * 
@@ -41,7 +41,7 @@ class GetUserLimitsRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $currencyCode;
+	public mixed $currencyCode;
 
 	/**
 	 * List of limit types 
@@ -51,7 +51,7 @@ class GetUserLimitsRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $limitType;
+	public mixed $limitType;
 
 	/**
 	 * Constructor with arguments

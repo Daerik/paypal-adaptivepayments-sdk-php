@@ -17,7 +17,7 @@ class PaymentInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $transactionId;
+	public string $transactionId;
 
 	/**
 	 * 
@@ -26,7 +26,7 @@ class PaymentInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $transactionStatus;
+	public string $transactionStatus;
 
 	/**
 	 * 
@@ -35,7 +35,7 @@ class PaymentInfo
 	 	 	 	 
 	 * @var PayPal\Types\AP\Receiver	 
 	 */ 
-	public $receiver;
+	public PayPal\Types\AP\Receiver $receiver;
 
 	/**
 	 * 
@@ -44,7 +44,7 @@ class PaymentInfo
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $refundedAmount;
+	public float $refundedAmount;
 
 	/**
 	 * 
@@ -53,7 +53,7 @@ class PaymentInfo
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $pendingRefund;
+	public bool $pendingRefund;
 
 	/**
 	 * 
@@ -62,7 +62,7 @@ class PaymentInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $senderTransactionId;
+	public string $senderTransactionId;
 
 	/**
 	 * 
@@ -71,7 +71,7 @@ class PaymentInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $senderTransactionStatus;
+	public string $senderTransactionStatus;
 
 	/**
 	 * 
@@ -80,7 +80,7 @@ class PaymentInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $pendingReason;
+	public string $pendingReason;
 
 
 }

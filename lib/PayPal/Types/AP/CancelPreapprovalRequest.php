@@ -14,7 +14,7 @@ class CancelPreapprovalRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class CancelPreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $preapprovalKey;
+	public mixed $preapprovalKey;
 
 	/**
 	 * Constructor with arguments

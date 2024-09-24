@@ -15,7 +15,7 @@ class TaxIdDetails
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $taxId;
+	public string $taxId;
 
 	/**
 	 * Tax type of the Tax Id. 
@@ -24,7 +24,7 @@ class TaxIdDetails
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $taxIdType;
+	public string $taxIdType;
 
 
 }

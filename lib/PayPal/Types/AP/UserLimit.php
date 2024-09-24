@@ -14,7 +14,7 @@ class UserLimit
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $limitType;
+	public string $limitType;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class UserLimit
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $limitAmount;
+	public PayPal\Types\Common\CurrencyType $limitAmount;
 
 
 }

@@ -15,7 +15,7 @@ class FundingPlan
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $fundingPlanId;
+	public string $fundingPlanId;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class FundingPlan
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $fundingAmount;
+	public PayPal\Types\Common\CurrencyType $fundingAmount;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class FundingPlan
 	 	 	 	 
 	 * @var PayPal\Types\AP\FundingSource	 
 	 */ 
-	public $backupFundingSource;
+	public PayPal\Types\AP\FundingSource $backupFundingSource;
 
 	/**
 	 * 
@@ -42,7 +42,7 @@ class FundingPlan
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $senderFees;
+	public PayPal\Types\Common\CurrencyType $senderFees;
 
 	/**
 	 * 
@@ -51,7 +51,7 @@ class FundingPlan
 	 	 	 	 
 	 * @var PayPal\Types\AP\CurrencyConversion	 
 	 */ 
-	public $currencyConversion;
+	public PayPal\Types\AP\CurrencyConversion $currencyConversion;
 
 	/**
 	 * 
@@ -61,7 +61,7 @@ class FundingPlan
 	 	 	 	 
 	 * @var PayPal\Types\AP\FundingPlanCharge	 
 	 */ 
-	public $charge;
+	public PayPal\Types\AP\FundingPlanCharge $charge;
 
 
 }

@@ -14,7 +14,7 @@ class GetAvailableShippingAddressesRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * The key for which to provide the available addresses. Key
@@ -25,7 +25,7 @@ class GetAvailableShippingAddressesRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $key;
+	public mixed $key;
 
 	/**
 	 * Constructor with arguments

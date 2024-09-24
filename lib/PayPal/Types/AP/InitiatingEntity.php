@@ -17,7 +17,7 @@ class InitiatingEntity
 	 	 	 	 
 	 * @var PayPal\Types\AP\InstitutionCustomer	 
 	 */ 
-	public $institutionCustomer;
+	public PayPal\Types\AP\InstitutionCustomer $institutionCustomer;
 
 
 }

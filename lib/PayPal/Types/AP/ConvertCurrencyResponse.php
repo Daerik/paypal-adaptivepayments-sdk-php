@@ -15,7 +15,7 @@ class ConvertCurrencyResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public $responseEnvelope;
+	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class ConvertCurrencyResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\CurrencyConversionTable	 
 	 */ 
-	public $estimatedAmountTable;
+	public PayPal\Types\AP\CurrencyConversionTable $estimatedAmountTable;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ class ConvertCurrencyResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

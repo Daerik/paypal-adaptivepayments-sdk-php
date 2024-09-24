@@ -15,7 +15,7 @@ class DisplayOptions
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $emailHeaderImageUrl;
+	public string $emailHeaderImageUrl;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class DisplayOptions
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $emailMarketingImageUrl;
+	public string $emailMarketingImageUrl;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class DisplayOptions
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $headerImageUrl;
+	public string $headerImageUrl;
 
 	/**
 	 * 
@@ -42,7 +42,7 @@ class DisplayOptions
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $businessName;
+	public string $businessName;
 
 
 }

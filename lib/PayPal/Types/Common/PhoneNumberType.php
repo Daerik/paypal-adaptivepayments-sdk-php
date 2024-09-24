@@ -15,7 +15,7 @@ class PhoneNumberType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $countryCode;
+	public mixed $countryCode;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class PhoneNumberType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $phoneNumber;
+	public mixed $phoneNumber;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class PhoneNumberType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $extension;
+	public string $extension;
 
 	/**
 	 * Constructor with arguments

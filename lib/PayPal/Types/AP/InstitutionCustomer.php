@@ -14,7 +14,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $institutionId;
+	public mixed $institutionId;
 
 	/**
 	 * The first (given) name of the end consumer as known by the
@@ -24,7 +24,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $firstName;
+	public mixed $firstName;
 
 	/**
 	 * The last (family) name of the end consumer as known by the
@@ -34,7 +34,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $lastName;
+	public mixed $lastName;
 
 	/**
 	 * 
@@ -43,7 +43,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $middleName;
+	public string $middleName;
 
 	/**
 	 * The full name of the end consumer as known by the
@@ -53,7 +53,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $displayName;
+	public mixed $displayName;
 
 	/**
 	 * The unique identifier as assigned to the end consumer by the
@@ -63,7 +63,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $institutionCustomerId;
+	public mixed $institutionCustomerId;
 
 	/**
 	 * The two-character ISO country code of the home country of
@@ -73,7 +73,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $countryCode;
+	public mixed $countryCode;
 
 	/**
 	 * 
@@ -82,7 +82,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $email;
+	public string $email;
 
 	/**
 	 * 
@@ -91,7 +91,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var date	 
 	 */ 
-	public $dateOfBirth;
+	public date $dateOfBirth;
 
 	/**
 	 * 
@@ -100,7 +100,7 @@ class InstitutionCustomer
 	 	 	 	 
 	 * @var PayPal\Types\Common\BaseAddress	 
 	 */ 
-	public $address;
+	public PayPal\Types\Common\BaseAddress $address;
 
 	/**
 	 * Constructor with arguments

@@ -31,7 +31,7 @@ class GetPrePaymentDisclosureResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public $responseEnvelope;
+	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -40,7 +40,7 @@ class GetPrePaymentDisclosureResponse
 	 	 	 	 
 	 * @var string 	 
 	 */ 
-	public $status;
+	public string $status;
 
 	/**
 	 * 
@@ -49,7 +49,7 @@ class GetPrePaymentDisclosureResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $feesPayer;
+	public string $feesPayer;
 
 	/**
 	 * 
@@ -58,7 +58,7 @@ class GetPrePaymentDisclosureResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\SenderDisclosure	 
 	 */ 
-	public $senderDisclosure;
+	public PayPal\Types\AP\SenderDisclosure $senderDisclosure;
 
 	/**
 	 * 
@@ -67,7 +67,7 @@ class GetPrePaymentDisclosureResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\ReceiverDisclosureList	 
 	 */ 
-	public $receiverDisclosureList;
+	public PayPal\Types\AP\ReceiverDisclosureList $receiverDisclosureList;
 
 	/**
 	 * 
@@ -76,7 +76,7 @@ class GetPrePaymentDisclosureResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $disclaimer;
+	public string $disclaimer;
 
 	/**
 	 * 
@@ -86,7 +86,7 @@ class GetPrePaymentDisclosureResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

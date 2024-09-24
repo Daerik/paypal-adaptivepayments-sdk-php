@@ -15,7 +15,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public $responseEnvelope;
+	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $cancelUrl;
+	public string $cancelUrl;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $currencyCode;
+	public string $currencyCode;
 
 	/**
 	 * 
@@ -42,7 +42,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $ipnNotificationUrl;
+	public string $ipnNotificationUrl;
 
 	/**
 	 * 
@@ -51,7 +51,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $memo;
+	public string $memo;
 
 	/**
 	 * 
@@ -60,7 +60,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\PaymentInfoList	 
 	 */ 
-	public $paymentInfoList;
+	public PayPal\Types\AP\PaymentInfoList $paymentInfoList;
 
 	/**
 	 * 
@@ -69,7 +69,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $returnUrl;
+	public string $returnUrl;
 
 	/**
 	 * 
@@ -78,7 +78,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $senderEmail;
+	public string $senderEmail;
 
 	/**
 	 * 
@@ -87,7 +87,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $status;
+	public string $status;
 
 	/**
 	 * 
@@ -96,7 +96,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $trackingId;
+	public string $trackingId;
 
 	/**
 	 * 
@@ -105,7 +105,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $payKey;
+	public string $payKey;
 
 	/**
 	 * 
@@ -114,7 +114,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $actionType;
+	public string $actionType;
 
 	/**
 	 * 
@@ -123,7 +123,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $feesPayer;
+	public string $feesPayer;
 
 	/**
 	 * 
@@ -132,7 +132,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $reverseAllParallelPaymentsOnError;
+	public bool $reverseAllParallelPaymentsOnError;
 
 	/**
 	 * 
@@ -141,7 +141,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $preapprovalKey;
+	public string $preapprovalKey;
 
 	/**
 	 * 
@@ -150,7 +150,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\FundingConstraint	 
 	 */ 
-	public $fundingConstraint;
+	public PayPal\Types\AP\FundingConstraint $fundingConstraint;
 
 	/**
 	 * 
@@ -159,7 +159,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\SenderIdentifier	 
 	 */ 
-	public $sender;
+	public PayPal\Types\AP\SenderIdentifier $sender;
 
 	/**
 	 * 
@@ -168,7 +168,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\ShippingAddressInfo	 
 	 */ 
-	public $shippingAddress;
+	public PayPal\Types\AP\ShippingAddressInfo $shippingAddress;
 
 	/**
 	 * 
@@ -177,7 +177,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public $payKeyExpirationDate;
+	public dateTime $payKeyExpirationDate;
 
 	/**
 	 * 
@@ -187,7 +187,7 @@ class PaymentDetailsResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

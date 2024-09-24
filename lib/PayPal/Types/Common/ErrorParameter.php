@@ -18,7 +18,7 @@ class ErrorParameter
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $name;
+	public string $name;
 
 	/**
 	 * 
@@ -29,7 +29,7 @@ class ErrorParameter
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $value;
+	public string $value;
 
 
 }

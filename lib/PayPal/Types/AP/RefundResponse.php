@@ -14,7 +14,7 @@ class RefundResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public $responseEnvelope;
+	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class RefundResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $currencyCode;
+	public string $currencyCode;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class RefundResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\RefundInfoList	 
 	 */ 
-	public $refundInfoList;
+	public PayPal\Types\AP\RefundInfoList $refundInfoList;
 
 	/**
 	 * 
@@ -42,7 +42,7 @@ class RefundResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

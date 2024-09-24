@@ -15,7 +15,7 @@ class SenderIdentifier  extends AccountIdentifier
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $useCredentials;
+	public bool $useCredentials;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class SenderIdentifier  extends AccountIdentifier
 	 	 	 	 
 	 * @var PayPal\Types\AP\TaxIdDetails	 
 	 */ 
-	public $taxIdDetails;
+	public PayPal\Types\AP\TaxIdDetails $taxIdDetails;
 
 
 }

@@ -15,7 +15,7 @@ class ReceiverList
 	 	 	 	 
 	 * @var PayPal\Types\AP\Receiver	 
 	 */ 
-	public $receiver;
+	public PayPal\Types\AP\Receiver $receiver;
 
 	/**
 	 * Constructor with arguments

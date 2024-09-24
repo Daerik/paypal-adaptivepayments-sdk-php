@@ -15,7 +15,7 @@ class ReceiverOptions
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $description;
+	public string $description;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class ReceiverOptions
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $customId;
+	public string $customId;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class ReceiverOptions
 	 	 	 	 
 	 * @var PayPal\Types\AP\InvoiceData	 
 	 */ 
-	public $invoiceData;
+	public PayPal\Types\AP\InvoiceData $invoiceData;
 
 	/**
 	 * 
@@ -42,7 +42,7 @@ class ReceiverOptions
 	 	 	 	 
 	 * @var PayPal\Types\AP\ReceiverIdentifier	 
 	 */ 
-	public $receiver;
+	public mixed $receiver;
 
 	/**
 	 * 
@@ -51,7 +51,7 @@ class ReceiverOptions
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $referrerCode;
+	public string $referrerCode;
 
 	/**
 	 * Constructor with arguments

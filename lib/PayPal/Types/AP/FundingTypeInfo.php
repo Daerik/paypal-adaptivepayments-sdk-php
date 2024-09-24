@@ -14,7 +14,7 @@ class FundingTypeInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $fundingType;
+	public string $fundingType;
 
 	/**
 	 * Constructor with arguments

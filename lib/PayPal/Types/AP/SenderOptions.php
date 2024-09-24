@@ -15,7 +15,7 @@ class SenderOptions
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $requireShippingAddressSelection;
+	public bool $requireShippingAddressSelection;
 
 	/**
 	 * Determines whether or not the UI pages should display the
@@ -26,7 +26,7 @@ class SenderOptions
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $addressOverride;
+	public bool $addressOverride;
 
 	/**
 	 * 
@@ -35,7 +35,7 @@ class SenderOptions
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $referrerCode;
+	public string $referrerCode;
 
 	/**
 	 * 
@@ -44,7 +44,7 @@ class SenderOptions
 	 	 	 	 
 	 * @var PayPal\Types\AP\ShippingAddressInfo	 
 	 */ 
-	public $shippingAddress;
+	public PayPal\Types\AP\ShippingAddressInfo $shippingAddress;
 
 
 }

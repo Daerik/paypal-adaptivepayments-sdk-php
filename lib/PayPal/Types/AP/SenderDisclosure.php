@@ -14,7 +14,7 @@ class SenderDisclosure
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $amountToTransfer;
+	public PayPal\Types\Common\CurrencyType $amountToTransfer;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class SenderDisclosure
 	 	 	 	 
 	 * @var PayPal\Types\AP\FeeDisclosure	 
 	 */ 
-	public $feeDisclosure;
+	public PayPal\Types\AP\FeeDisclosure $feeDisclosure;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class SenderDisclosure
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $totalAmountToTransfer;
+	public PayPal\Types\Common\CurrencyType $totalAmountToTransfer;
 
 
 }

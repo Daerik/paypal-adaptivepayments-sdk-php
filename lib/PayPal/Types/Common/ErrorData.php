@@ -16,7 +16,7 @@ class ErrorData
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $errorId;
+	public int $errorId;
 
 	/**
 	 * 
@@ -25,7 +25,7 @@ class ErrorData
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $domain;
+	public string $domain;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ class ErrorData
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $subdomain;
+	public string $subdomain;
 
 	/**
 	 * 
@@ -43,7 +43,7 @@ class ErrorData
 	 	 	 	 
 	 * @var string 	 
 	 */ 
-	public $severity;
+	public string $severity;
 
 	/**
 	 * 
@@ -52,7 +52,7 @@ class ErrorData
 	 	 	 	 
 	 * @var string 	 
 	 */ 
-	public $category;
+	public string $category;
 
 	/**
 	 * 
@@ -61,7 +61,7 @@ class ErrorData
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $message;
+	public string $message;
 
 	/**
 	 * 
@@ -70,7 +70,7 @@ class ErrorData
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $exceptionId;
+	public string $exceptionId;
 
 	/**
 	 * 
@@ -80,7 +80,7 @@ class ErrorData
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorParameter	 
 	 */ 
-	public $parameter;
+	public PayPal\Types\Common\ErrorParameter $parameter;
 
 
 }

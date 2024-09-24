@@ -15,7 +15,7 @@ class ConversionRate
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $senderCurrency;
+	public string $senderCurrency;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class ConversionRate
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $receiverCurrency;
+	public string $receiverCurrency;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class ConversionRate
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $exchangeRate;
+	public float $exchangeRate;
 
 
 }

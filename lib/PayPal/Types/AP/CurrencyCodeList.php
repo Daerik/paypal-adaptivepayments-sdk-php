@@ -15,7 +15,7 @@ class CurrencyCodeList
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $currencyCode;
+	public mixed $currencyCode;
 
 	/**
 	 * Constructor with arguments

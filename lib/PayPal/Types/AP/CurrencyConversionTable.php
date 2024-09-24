@@ -16,7 +16,7 @@ class CurrencyConversionTable
 	 	 	 	 
 	 * @var PayPal\Types\AP\CurrencyConversionList	 
 	 */ 
-	public $currencyConversionList;
+	public PayPal\Types\AP\CurrencyConversionList $currencyConversionList;
 
 
 }

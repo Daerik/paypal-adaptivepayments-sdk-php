@@ -15,7 +15,7 @@ class GetShippingAddressesResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public $responseEnvelope;
+	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class GetShippingAddressesResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\Address	 
 	 */ 
-	public $selectedAddress;
+	public PayPal\Types\AP\Address $selectedAddress;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ class GetShippingAddressesResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

@@ -14,7 +14,7 @@ class FundingPlanCharge
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $charge;
+	public PayPal\Types\Common\CurrencyType $charge;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class FundingPlanCharge
 	 	 	 	 
 	 * @var PayPal\Types\AP\FundingSource	 
 	 */ 
-	public $fundingSource;
+	public PayPal\Types\AP\FundingSource $fundingSource;
 
 
 }

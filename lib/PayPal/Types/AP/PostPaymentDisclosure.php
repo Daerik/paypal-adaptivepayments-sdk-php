@@ -16,7 +16,7 @@ class PostPaymentDisclosure
 	 	 	 	 
 	 * @var PayPal\Types\Common\AccountIdentifier	 
 	 */ 
-	public $accountIdentifier;
+	public PayPal\Types\Common\AccountIdentifier $accountIdentifier;
 
 	/**
 	 * 
@@ -25,7 +25,7 @@ class PostPaymentDisclosure
 	 	 	 	 
 	 * @var date	 
 	 */ 
-	public $fundsAvailabilityDate;
+	public date $fundsAvailabilityDate;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ class PostPaymentDisclosure
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $fundsAvailabilityDateDisclaimerText;
+	public string $fundsAvailabilityDateDisclaimerText;
 
 
 }

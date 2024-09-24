@@ -15,7 +15,7 @@ class AccountIdentifier
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $email;
+	public string $email;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class AccountIdentifier
 	 	 	 	 
 	 * @var PayPal\Types\Common\PhoneNumberType	 
 	 */ 
-	public $phone;
+	public PayPal\Types\Common\PhoneNumberType $phone;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class AccountIdentifier
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $accountId;
+	public string $accountId;
 
 
 }

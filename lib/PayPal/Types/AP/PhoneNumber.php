@@ -14,7 +14,7 @@ class PhoneNumber  extends PhoneNumberType
 	 	 	 	 
 	 * @var string 	 
 	 */ 
-	public $type;
+	public mixed $type;
 
 	/**
 	 * Constructor with arguments

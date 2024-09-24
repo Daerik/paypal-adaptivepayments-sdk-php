@@ -14,7 +14,7 @@ class GetPaymentOptionsRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class GetPaymentOptionsRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $payKey;
+	public mixed $payKey;
 
 	/**
 	 * Constructor with arguments

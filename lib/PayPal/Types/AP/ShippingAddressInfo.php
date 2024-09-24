@@ -14,7 +14,7 @@ class ShippingAddressInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $addresseeName;
+	public string $addresseeName;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class ShippingAddressInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $street1;
+	public string $street1;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class ShippingAddressInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $street2;
+	public string $street2;
 
 	/**
 	 * 
@@ -41,7 +41,7 @@ class ShippingAddressInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $city;
+	public string $city;
 
 	/**
 	 * 
@@ -50,7 +50,7 @@ class ShippingAddressInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $state;
+	public string $state;
 
 	/**
 	 * 
@@ -59,7 +59,7 @@ class ShippingAddressInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $zip;
+	public string $zip;
 
 	/**
 	 * 
@@ -68,7 +68,7 @@ class ShippingAddressInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $country;
+	public string $country;
 
 	/**
 	 * 
@@ -78,7 +78,7 @@ class ShippingAddressInfo
 	 	 	 	 
 	 * @var PayPal\Types\AP\PhoneNumber	 
 	 */ 
-	public $phone;
+	public PayPal\Types\AP\PhoneNumber $phone;
 
 
 }

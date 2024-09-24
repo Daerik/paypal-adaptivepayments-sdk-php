@@ -15,7 +15,7 @@ class PostPaymentDisclosureList
 	 	 	 	 
 	 * @var PayPal\Types\AP\PostPaymentDisclosure	 
 	 */ 
-	public $postPaymentDisclosure;
+	public PayPal\Types\AP\PostPaymentDisclosure $postPaymentDisclosure;
 
 
 }

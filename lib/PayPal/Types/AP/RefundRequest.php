@@ -17,7 +17,7 @@ class RefundRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public mixed $requestEnvelope;
 
 	/**
 	 * 
@@ -26,7 +26,7 @@ class RefundRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $currencyCode;
+	public string $currencyCode;
 
 	/**
 	 * 
@@ -35,7 +35,7 @@ class RefundRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $payKey;
+	public string $payKey;
 
 	/**
 	 * 
@@ -44,7 +44,7 @@ class RefundRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $transactionId;
+	public string $transactionId;
 
 	/**
 	 * 
@@ -53,7 +53,7 @@ class RefundRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $trackingId;
+	public string $trackingId;
 
 	/**
 	 * 
@@ -62,7 +62,7 @@ class RefundRequest
 	 	 	 	 
 	 * @var PayPal\Types\AP\ReceiverList	 
 	 */ 
-	public $receiverList;
+	public PayPal\Types\AP\ReceiverList $receiverList;
 
 	/**
 	 * Constructor with arguments

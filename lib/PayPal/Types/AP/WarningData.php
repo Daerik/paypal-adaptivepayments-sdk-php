@@ -15,7 +15,7 @@ class WarningData
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $warningId;
+	public int $warningId;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class WarningData
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $message;
+	public string $message;
 
 
 }

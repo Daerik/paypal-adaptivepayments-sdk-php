@@ -20,7 +20,7 @@ class RequestEnvelope
 	 	 	 	 
 	 * @var string 	 
 	 */ 
-	public $detailLevel;
+	public string $detailLevel;
 
 	/**
 	 * This should be the standard RFC 3066 language identification
@@ -30,7 +30,7 @@ class RequestEnvelope
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $errorLanguage;
+	public mixed $errorLanguage;
 
 	/**
 	 * Constructor with arguments

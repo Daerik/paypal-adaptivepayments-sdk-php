@@ -15,7 +15,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public $responseEnvelope;
+	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $approved;
+	public bool $approved;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $cancelUrl;
+	public string $cancelUrl;
 
 	/**
 	 * 
@@ -42,7 +42,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $curPayments;
+	public int $curPayments;
 
 	/**
 	 * 
@@ -51,7 +51,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $curPaymentsAmount;
+	public float $curPaymentsAmount;
 
 	/**
 	 * 
@@ -60,7 +60,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $curPeriodAttempts;
+	public int $curPeriodAttempts;
 
 	/**
 	 * 
@@ -69,7 +69,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public $curPeriodEndingDate;
+	public dateTime $curPeriodEndingDate;
 
 	/**
 	 * 
@@ -78,7 +78,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $currencyCode;
+	public string $currencyCode;
 
 	/**
 	 * 
@@ -87,7 +87,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $dateOfMonth;
+	public int $dateOfMonth;
 
 	/**
 	 * 
@@ -96,7 +96,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string 	 
 	 */ 
-	public $dayOfWeek;
+	public string $dayOfWeek;
 
 	/**
 	 * 
@@ -105,7 +105,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public $endingDate;
+	public dateTime $endingDate;
 
 	/**
 	 * 
@@ -114,7 +114,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $maxAmountPerPayment;
+	public float $maxAmountPerPayment;
 
 	/**
 	 * 
@@ -123,7 +123,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $maxNumberOfPayments;
+	public int $maxNumberOfPayments;
 
 	/**
 	 * 
@@ -132,7 +132,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $maxNumberOfPaymentsPerPeriod;
+	public int $maxNumberOfPaymentsPerPeriod;
 
 	/**
 	 * 
@@ -141,7 +141,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $maxTotalAmountOfAllPayments;
+	public float $maxTotalAmountOfAllPayments;
 
 	/**
 	 * 
@@ -150,7 +150,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $paymentPeriod;
+	public string $paymentPeriod;
 
 	/**
 	 * 
@@ -159,7 +159,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $pinType;
+	public string $pinType;
 
 	/**
 	 * 
@@ -168,7 +168,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $returnUrl;
+	public string $returnUrl;
 
 	/**
 	 * 
@@ -177,7 +177,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $senderEmail;
+	public string $senderEmail;
 
 	/**
 	 * 
@@ -186,7 +186,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $memo;
+	public string $memo;
 
 	/**
 	 * 
@@ -195,7 +195,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public $startingDate;
+	public dateTime $startingDate;
 
 	/**
 	 * 
@@ -204,7 +204,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $status;
+	public string $status;
 
 	/**
 	 * 
@@ -213,7 +213,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $ipnNotificationUrl;
+	public string $ipnNotificationUrl;
 
 	/**
 	 * 
@@ -222,7 +222,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\AddressList	 
 	 */ 
-	public $addressList;
+	public PayPal\Types\AP\AddressList $addressList;
 
 	/**
 	 * 
@@ -231,7 +231,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $feesPayer;
+	public string $feesPayer;
 
 	/**
 	 * 
@@ -240,7 +240,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $displayMaxTotalAmount;
+	public bool $displayMaxTotalAmount;
 
 	/**
 	 * 
@@ -249,7 +249,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\SenderIdentifier	 
 	 */ 
-	public $sender;
+	public PayPal\Types\AP\SenderIdentifier $sender;
 
 	/**
 	 * 
@@ -258,7 +258,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var string 	 
 	 */ 
-	public $agreementType;
+	public string $agreementType;
 
 	/**
 	 * 
@@ -268,7 +268,7 @@ class PreapprovalDetailsResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

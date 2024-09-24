@@ -16,7 +16,7 @@ class PaymentDetailsRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public mixed $requestEnvelope;
 
 	/**
 	 * 
@@ -25,7 +25,7 @@ class PaymentDetailsRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $payKey;
+	public string $payKey;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ class PaymentDetailsRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $transactionId;
+	public string $transactionId;
 
 	/**
 	 * 
@@ -43,7 +43,7 @@ class PaymentDetailsRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $trackingId;
+	public string $trackingId;
 
 	/**
 	 * Constructor with arguments

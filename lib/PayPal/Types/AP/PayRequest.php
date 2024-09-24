@@ -15,7 +15,7 @@ class PayRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public mixed $requestEnvelope;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class PayRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\ClientDetailsType	 
 	 */ 
-	public $clientDetails;
+	public PayPal\Types\Common\ClientDetailsType $clientDetails;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $actionType;
+	public mixed $actionType;
 
 	/**
 	 * 
@@ -42,7 +42,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $cancelUrl;
+	public mixed $cancelUrl;
 
 	/**
 	 * 
@@ -51,7 +51,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $currencyCode;
+	public mixed $currencyCode;
 
 	/**
 	 * 
@@ -60,7 +60,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $feesPayer;
+	public string $feesPayer;
 
 	/**
 	 * 
@@ -69,7 +69,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $ipnNotificationUrl;
+	public string $ipnNotificationUrl;
 
 	/**
 	 * 
@@ -78,7 +78,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $memo;
+	public string $memo;
 
 	/**
 	 * 
@@ -87,7 +87,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $pin;
+	public string $pin;
 
 	/**
 	 * 
@@ -96,7 +96,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $preapprovalKey;
+	public string $preapprovalKey;
 
 	/**
 	 * 
@@ -105,7 +105,7 @@ class PayRequest
 	 	 	 	 
 	 * @var PayPal\Types\AP\ReceiverList	 
 	 */ 
-	public $receiverList;
+	public mixed $receiverList;
 
 	/**
 	 * 
@@ -114,7 +114,7 @@ class PayRequest
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $reverseAllParallelPaymentsOnError;
+	public bool $reverseAllParallelPaymentsOnError;
 
 	/**
 	 * 
@@ -123,7 +123,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $senderEmail;
+	public string $senderEmail;
 
 	/**
 	 * 
@@ -132,7 +132,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $returnUrl;
+	public mixed $returnUrl;
 
 	/**
 	 * 
@@ -141,7 +141,7 @@ class PayRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $trackingId;
+	public string $trackingId;
 
 	/**
 	 * 
@@ -150,7 +150,7 @@ class PayRequest
 	 	 	 	 
 	 * @var PayPal\Types\AP\FundingConstraint	 
 	 */ 
-	public $fundingConstraint;
+	public PayPal\Types\AP\FundingConstraint $fundingConstraint;
 
 	/**
 	 * 
@@ -159,7 +159,7 @@ class PayRequest
 	 	 	 	 
 	 * @var PayPal\Types\AP\SenderIdentifier	 
 	 */ 
-	public $sender;
+	public PayPal\Types\AP\SenderIdentifier $sender;
 
 	/**
 	 * The pay key expires after the duration specified in this
@@ -170,7 +170,7 @@ class PayRequest
 	 	 	 	 
 	 * @var duration	 
 	 */ 
-	public $payKeyDuration;
+	public duration $payKeyDuration;
 
 	/**
 	 * Constructor with arguments

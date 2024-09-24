@@ -15,7 +15,7 @@ class GetAllowedFundingSourcesResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public $responseEnvelope;
+	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -25,7 +25,7 @@ class GetAllowedFundingSourcesResponse
 	 	 	 	 
 	 * @var PayPal\Types\AP\FundingSource	 
 	 */ 
-	public $fundingSource;
+	public PayPal\Types\AP\FundingSource $fundingSource;
 
 	/**
 	 * 
@@ -35,7 +35,7 @@ class GetAllowedFundingSourcesResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

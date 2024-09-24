@@ -15,7 +15,7 @@ class FundingTypeList
 	 	 	 	 
 	 * @var PayPal\Types\AP\FundingTypeInfo	 
 	 */ 
-	public $fundingTypeInfo;
+	public mixed $fundingTypeInfo;
 
 	/**
 	 * Constructor with arguments

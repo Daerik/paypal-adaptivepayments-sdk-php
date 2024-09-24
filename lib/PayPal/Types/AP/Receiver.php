@@ -17,7 +17,7 @@ class Receiver
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $amount;
+	public mixed $amount;
 
 	/**
 	 * 
@@ -26,7 +26,7 @@ class Receiver
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $email;
+	public string $email;
 
 	/**
 	 * 
@@ -35,7 +35,7 @@ class Receiver
 	 	 	 	 
 	 * @var PayPal\Types\Common\PhoneNumberType	 
 	 */ 
-	public $phone;
+	public PayPal\Types\Common\PhoneNumberType $phone;
 
 	/**
 	 * 
@@ -44,7 +44,7 @@ class Receiver
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $primary;
+	public bool $primary;
 
 	/**
 	 * 
@@ -53,7 +53,7 @@ class Receiver
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $invoiceId;
+	public string $invoiceId;
 
 	/**
 	 * 
@@ -62,7 +62,7 @@ class Receiver
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $paymentType;
+	public string $paymentType;
 
 	/**
 	 * 
@@ -71,7 +71,7 @@ class Receiver
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $paymentSubType;
+	public string $paymentSubType;
 
 	/**
 	 * 
@@ -80,7 +80,7 @@ class Receiver
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $accountId;
+	public string $accountId;
 
 	/**
 	 * Constructor with arguments

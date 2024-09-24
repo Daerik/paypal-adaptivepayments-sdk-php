@@ -15,7 +15,7 @@ class GetFundingPlansRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class GetFundingPlansRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $payKey;
+	public mixed $payKey;
 
 	/**
 	 * Constructor with arguments

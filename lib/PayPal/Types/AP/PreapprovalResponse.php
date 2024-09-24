@@ -14,7 +14,7 @@ class PreapprovalResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public $responseEnvelope;
+	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class PreapprovalResponse
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $preapprovalKey;
+	public string $preapprovalKey;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class PreapprovalResponse
 	 	 	 	 
 	 * @var PayPal\Types\Common\ErrorData	 
 	 */ 
-	public $error;
+	public PayPal\Types\Common\ErrorData $error;
 
 
 }

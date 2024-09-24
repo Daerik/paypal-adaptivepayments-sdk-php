@@ -16,7 +16,7 @@ class ReceiverInfo  extends AccountIdentifier
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $countryCode;
+	public string $countryCode;
 
 	/**
 	 * 
@@ -25,7 +25,7 @@ class ReceiverInfo  extends AccountIdentifier
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $firstName;
+	public string $firstName;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ class ReceiverInfo  extends AccountIdentifier
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $lastName;
+	public string $lastName;
 
 
 }

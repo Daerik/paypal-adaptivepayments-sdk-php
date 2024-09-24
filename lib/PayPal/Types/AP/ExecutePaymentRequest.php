@@ -14,7 +14,7 @@ class ExecutePaymentRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class ExecutePaymentRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $payKey;
+	public mixed $payKey;
 
 	/**
 	 * Describes the action that is performed by this API 
@@ -32,7 +32,7 @@ class ExecutePaymentRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $actionType;
+	public string $actionType;
 
 	/**
 	 * 
@@ -41,7 +41,7 @@ class ExecutePaymentRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $fundingPlanId;
+	public string $fundingPlanId;
 
 	/**
 	 * Constructor with arguments

@@ -16,7 +16,7 @@ class ResponseEnvelope
 	 	 	 	 
 	 * @var dateTime	 
 	 */ 
-	public $timestamp;
+	public dateTime $timestamp;
 
 	/**
 	 * Application level acknowledgment code. 
@@ -25,7 +25,7 @@ class ResponseEnvelope
 	 	 	 	 
 	 * @var string 	 
 	 */ 
-	public $ack;
+	public string $ack;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ class ResponseEnvelope
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $correlationId;
+	public string $correlationId;
 
 	/**
 	 * 
@@ -43,7 +43,7 @@ class ResponseEnvelope
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $build;
+	public string $build;
 
 
 }

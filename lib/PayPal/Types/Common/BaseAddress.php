@@ -15,7 +15,7 @@ class BaseAddress
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $line1;
+	public string $line1;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class BaseAddress
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $line2;
+	public string $line2;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class BaseAddress
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $city;
+	public mixed $city;
 
 	/**
 	 * 
@@ -42,7 +42,7 @@ class BaseAddress
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $state;
+	public string $state;
 
 	/**
 	 * 
@@ -51,7 +51,7 @@ class BaseAddress
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $postalCode;
+	public string $postalCode;
 
 	/**
 	 * 
@@ -60,7 +60,7 @@ class BaseAddress
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $countryCode;
+	public mixed $countryCode;
 
 	/**
 	 * 
@@ -69,7 +69,7 @@ class BaseAddress
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $type;
+	public string $type;
 
 	/**
 	 * Constructor with arguments

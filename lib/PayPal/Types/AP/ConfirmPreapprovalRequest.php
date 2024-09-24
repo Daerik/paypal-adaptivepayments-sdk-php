@@ -14,7 +14,7 @@ class ConfirmPreapprovalRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class ConfirmPreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $preapprovalKey;
+	public mixed $preapprovalKey;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class ConfirmPreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $fundingSourceId;
+	public string $fundingSourceId;
 
 	/**
 	 * 
@@ -41,7 +41,7 @@ class ConfirmPreapprovalRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $pin;
+	public string $pin;
 
 	/**
 	 * 
@@ -50,7 +50,7 @@ class ConfirmPreapprovalRequest
 	 	 	 	 
 	 * @var string 	 
 	 */ 
-	public $agreementType;
+	public string $agreementType;
 
 	/**
 	 * Constructor with arguments

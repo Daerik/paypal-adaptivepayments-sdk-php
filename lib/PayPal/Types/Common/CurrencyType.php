@@ -15,7 +15,7 @@ class CurrencyType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $code;
+	public string $code;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class CurrencyType
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $amount;
+	public mixed $amount;
 
 	/**
 	 * Constructor with arguments

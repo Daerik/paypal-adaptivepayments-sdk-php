@@ -15,7 +15,7 @@ class ReceiverInfoList
 	 	 	 	 
 	 * @var PayPal\Types\AP\ReceiverInfo	 
 	 */ 
-	public $receiverInfo;
+	public mixed $receiverInfo;
 
 	/**
 	 * Constructor with arguments

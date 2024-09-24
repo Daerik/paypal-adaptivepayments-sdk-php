@@ -15,7 +15,7 @@ class AddressList
 	 	 	 	 
 	 * @var PayPal\Types\AP\Address	 
 	 */ 
-	public $address;
+	public PayPal\Types\AP\Address $address;
 
 
 }

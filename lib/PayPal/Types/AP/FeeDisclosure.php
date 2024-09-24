@@ -15,7 +15,7 @@ class FeeDisclosure
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $fee;
+	public PayPal\Types\Common\CurrencyType $fee;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class FeeDisclosure
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $taxes;
+	public PayPal\Types\Common\CurrencyType $taxes;
 
 
 }

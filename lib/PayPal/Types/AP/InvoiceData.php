@@ -16,7 +16,7 @@ class InvoiceData
 	 	 	 	 
 	 * @var PayPal\Types\AP\InvoiceItem	 
 	 */ 
-	public $item;
+	public PayPal\Types\AP\InvoiceItem $item;
 
 	/**
 	 * 
@@ -25,7 +25,7 @@ class InvoiceData
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $totalTax;
+	public float $totalTax;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ class InvoiceData
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $totalShipping;
+	public float $totalShipping;
 
 
 }

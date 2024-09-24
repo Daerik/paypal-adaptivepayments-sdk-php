@@ -30,16 +30,16 @@ use PayPal\Types\AP\GetPrePaymentDisclosureResponse;
 class AdaptivePaymentsService extends PPBaseService {
 
 	// Service Version
-	private static $SERVICE_VERSION = "1.8.5";
+	private static string $SERVICE_VERSION = "1.8.5";
 
 	// Service Name
-	private static $SERVICE_NAME = "AdaptivePayments";
+	private static string $SERVICE_NAME = "AdaptivePayments";
 
     // SDK Name
-	protected static $SDK_NAME = "adaptivepayments-php-sdk";
+	protected static string $SDK_NAME = "adaptivepayments-php-sdk";
 
 	// SDK Version
-	protected static $SDK_VERSION = "3.9.2";
+	protected static string $SDK_VERSION = "3.9.2";
 
     /**
     * @param $config - Dynamic config map. This takes the higher precedence if config file is also present.

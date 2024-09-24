@@ -25,7 +25,7 @@ class GetPrePaymentDisclosureRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ class GetPrePaymentDisclosureRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $payKey;
+	public mixed $payKey;
 
 	/**
 	 * 
@@ -43,7 +43,7 @@ class GetPrePaymentDisclosureRequest
 	 	 	 	 
 	 * @var PayPal\Types\AP\ReceiverInfoList	 
 	 */ 
-	public $receiverInfoList;
+	public PayPal\Types\AP\ReceiverInfoList $receiverInfoList;
 
 	/**
 	 * Constructor with arguments

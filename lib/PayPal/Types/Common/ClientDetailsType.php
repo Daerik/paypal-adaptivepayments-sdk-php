@@ -16,7 +16,7 @@ class ClientDetailsType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $ipAddress;
+	public string $ipAddress;
 
 	/**
 	 * 
@@ -25,7 +25,7 @@ class ClientDetailsType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $deviceId;
+	public string $deviceId;
 
 	/**
 	 * 
@@ -34,7 +34,7 @@ class ClientDetailsType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $applicationId;
+	public string $applicationId;
 
 	/**
 	 * 
@@ -43,7 +43,7 @@ class ClientDetailsType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $model;
+	public string $model;
 
 	/**
 	 * 
@@ -52,7 +52,7 @@ class ClientDetailsType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $geoLocation;
+	public string $geoLocation;
 
 	/**
 	 * 
@@ -61,7 +61,7 @@ class ClientDetailsType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $customerType;
+	public string $customerType;
 
 	/**
 	 * 
@@ -70,7 +70,7 @@ class ClientDetailsType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $partnerName;
+	public string $partnerName;
 
 	/**
 	 * 
@@ -79,7 +79,7 @@ class ClientDetailsType
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $customerId;
+	public string $customerId;
 
 
 }

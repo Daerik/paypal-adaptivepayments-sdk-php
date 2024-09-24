@@ -14,7 +14,7 @@ class InvoiceItem
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $name;
+	public string $name;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class InvoiceItem
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $identifier;
+	public string $identifier;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class InvoiceItem
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $price;
+	public float $price;
 
 	/**
 	 * 
@@ -41,7 +41,7 @@ class InvoiceItem
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $itemPrice;
+	public float $itemPrice;
 
 	/**
 	 * 
@@ -50,7 +50,7 @@ class InvoiceItem
 	 	 	 	 
 	 * @var int
 	 */ 
-	public $itemCount;
+	public int $itemCount;
 
 
 }

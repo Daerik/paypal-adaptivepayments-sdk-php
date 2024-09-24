@@ -14,7 +14,7 @@ class PreapprovalDetailsRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public mixed $requestEnvelope;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class PreapprovalDetailsRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $preapprovalKey;
+	public mixed $preapprovalKey;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class PreapprovalDetailsRequest
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $getBillingAddress;
+	public bool $getBillingAddress;
 
 	/**
 	 * Constructor with arguments

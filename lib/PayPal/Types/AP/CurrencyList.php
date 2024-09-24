@@ -15,7 +15,7 @@ class CurrencyList
 	 	 	 	 
 	 * @var PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public $currency;
+	public mixed $currency;
 
 	/**
 	 * Constructor with arguments

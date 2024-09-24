@@ -14,7 +14,7 @@ class Address
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $addresseeName;
+	public string $addresseeName;
 
 	/**
 	 * 
@@ -23,7 +23,7 @@ class Address
 	 	 	 	 
 	 * @var PayPal\Types\Common\BaseAddress	 
 	 */ 
-	public $baseAddress;
+	public PayPal\Types\Common\BaseAddress $baseAddress;
 
 	/**
 	 * 
@@ -32,7 +32,7 @@ class Address
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $addressId;
+	public string $addressId;
 
 
 }

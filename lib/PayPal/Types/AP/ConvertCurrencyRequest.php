@@ -15,7 +15,7 @@ class ConvertCurrencyRequest
 	 	 	 	 
 	 * @var PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public $requestEnvelope;
+	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class ConvertCurrencyRequest
 	 	 	 	 
 	 * @var PayPal\Types\AP\CurrencyList	 
 	 */ 
-	public $baseAmountList;
+	public mixed $baseAmountList;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class ConvertCurrencyRequest
 	 	 	 	 
 	 * @var PayPal\Types\AP\CurrencyCodeList	 
 	 */ 
-	public $convertToCurrencyList;
+	public mixed $convertToCurrencyList;
 
 	/**
 	 * The two-character ISO country code where fx suppposed to
@@ -43,7 +43,7 @@ class ConvertCurrencyRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $countryCode;
+	public string $countryCode;
 
 	/**
 	 * 
@@ -52,7 +52,7 @@ class ConvertCurrencyRequest
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $conversionType;
+	public string $conversionType;
 
 	/**
 	 * Constructor with arguments

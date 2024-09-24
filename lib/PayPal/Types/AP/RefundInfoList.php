@@ -15,7 +15,7 @@ class RefundInfoList
 	 	 	 	 
 	 * @var PayPal\Types\AP\RefundInfo	 
 	 */ 
-	public $refundInfo;
+	public PayPal\Types\AP\RefundInfo $refundInfo;
 
 
 }

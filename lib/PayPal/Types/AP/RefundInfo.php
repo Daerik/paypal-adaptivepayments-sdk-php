@@ -15,7 +15,7 @@ class RefundInfo
 	 	 	 	 
 	 * @var PayPal\Types\AP\Receiver	 
 	 */ 
-	public $receiver;
+	public PayPal\Types\AP\Receiver $receiver;
 
 	/**
 	 * 
@@ -24,7 +24,7 @@ class RefundInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $refundStatus;
+	public string $refundStatus;
 
 	/**
 	 * 
@@ -33,7 +33,7 @@ class RefundInfo
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $refundNetAmount;
+	public float $refundNetAmount;
 
 	/**
 	 * 
@@ -42,7 +42,7 @@ class RefundInfo
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $refundFeeAmount;
+	public float $refundFeeAmount;
 
 	/**
 	 * 
@@ -51,7 +51,7 @@ class RefundInfo
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $refundGrossAmount;
+	public float $refundGrossAmount;
 
 	/**
 	 * 
@@ -60,7 +60,7 @@ class RefundInfo
 	 	 	 	 
 	 * @var double	 
 	 */ 
-	public $totalOfAllRefunds;
+	public float $totalOfAllRefunds;
 
 	/**
 	 * 
@@ -69,7 +69,7 @@ class RefundInfo
 	 	 	 	 
 	 * @var bool
 	 */ 
-	public $refundHasBecomeFull;
+	public bool $refundHasBecomeFull;
 
 	/**
 	 * 
@@ -78,7 +78,7 @@ class RefundInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $encryptedRefundTransactionId;
+	public string $encryptedRefundTransactionId;
 
 	/**
 	 * 
@@ -87,7 +87,7 @@ class RefundInfo
 	 	 	 	 
 	 * @var string	 
 	 */ 
-	public $refundTransactionStatus;
+	public string $refundTransactionStatus;
 
 	/**
 	 * 
@@ -96,7 +96,7 @@ class RefundInfo
 	 	 	 	 
 	 * @var PayPal\Types\AP\ErrorList	 
 	 */ 
-	public $errorList;
+	public PayPal\Types\AP\ErrorList $errorList;
 
 
 }
