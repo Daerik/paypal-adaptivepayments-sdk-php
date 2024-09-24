@@ -78,7 +78,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\CancelPreapprovalResponse
 	 * @throws Exception
 	 */
-	public function CancelPreapproval(CancelPreapprovalRequest $cancelPreapprovalRequest, mixed $apiCredential = NULL): CancelPreapprovalResponse|Types\AP\CancelPreapprovalResponse {
+	public function CancelPreapproval(CancelPreapprovalRequest $cancelPreapprovalRequest, mixed $apiCredential = NULL): CancelPreapprovalResponse {
 		$ret = new CancelPreapprovalResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -101,7 +101,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\ConfirmPreapprovalResponse
 	 * @throws Exception
 	 */
-	public function ConfirmPreapproval(ConfirmPreapprovalRequest $confirmPreapprovalRequest, mixed $apiCredential = NULL): Types\AP\ConfirmPreapprovalResponse|ConfirmPreapprovalResponse {
+	public function ConfirmPreapproval(ConfirmPreapprovalRequest $confirmPreapprovalRequest, mixed $apiCredential = NULL): ConfirmPreapprovalResponse {
 		$ret = new ConfirmPreapprovalResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -124,7 +124,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\ConvertCurrencyResponse
 	 * @throws Exception
 	 */
-	public function ConvertCurrency(ConvertCurrencyRequest $convertCurrencyRequest, mixed $apiCredential = NULL): ConvertCurrencyResponse|Types\AP\ConvertCurrencyResponse {
+	public function ConvertCurrency(ConvertCurrencyRequest $convertCurrencyRequest, mixed $apiCredential = NULL): ConvertCurrencyResponse {
 		$ret = new ConvertCurrencyResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -147,7 +147,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\ExecutePaymentResponse
 	 * @throws Exception
 	 */
-	public function ExecutePayment(ExecutePaymentRequest $executePaymentRequest, mixed $apiCredential = NULL): Types\AP\ExecutePaymentResponse|ExecutePaymentResponse {
+	public function ExecutePayment(ExecutePaymentRequest $executePaymentRequest, mixed $apiCredential = NULL): ExecutePaymentResponse {
 		$ret = new ExecutePaymentResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -170,7 +170,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\GetAllowedFundingSourcesResponse
 	 * @throws Exception
 	 */
-	public function GetAllowedFundingSources(GetAllowedFundingSourcesRequest $getAllowedFundingSourcesRequest, mixed $apiCredential = NULL): GetAllowedFundingSourcesResponse|Types\AP\GetAllowedFundingSourcesResponse {
+	public function GetAllowedFundingSources(GetAllowedFundingSourcesRequest $getAllowedFundingSourcesRequest, mixed $apiCredential = NULL): GetAllowedFundingSourcesResponse {
 		$ret = new GetAllowedFundingSourcesResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -193,7 +193,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\GetPaymentOptionsResponse
 	 * @throws Exception
 	 */
-	public function GetPaymentOptions(GetPaymentOptionsRequest $getPaymentOptionsRequest, mixed $apiCredential = NULL): GetPaymentOptionsResponse|Types\AP\GetPaymentOptionsResponse {
+	public function GetPaymentOptions(GetPaymentOptionsRequest $getPaymentOptionsRequest, mixed $apiCredential = NULL): GetPaymentOptionsResponse {
 		$ret = new GetPaymentOptionsResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -216,7 +216,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\PaymentDetailsResponse
 	 * @throws Exception
 	 */
-	public function PaymentDetails(PaymentDetailsRequest $paymentDetailsRequest, mixed $apiCredential = NULL): Types\AP\PaymentDetailsResponse|PaymentDetailsResponse {
+	public function PaymentDetails(PaymentDetailsRequest $paymentDetailsRequest, mixed $apiCredential = NULL): PaymentDetailsResponse {
 		$ret = new PaymentDetailsResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -239,7 +239,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\PayResponse
 	 * @throws Exception
 	 */
-	public function Pay(PayRequest $payRequest, mixed $apiCredential = NULL): PayResponse|Types\AP\PayResponse {
+	public function Pay(PayRequest $payRequest, mixed $apiCredential = NULL): PayResponse {
 		$ret = new PayResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -262,7 +262,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\PreapprovalDetailsResponse
 	 * @throws Exception
 	 */
-	public function PreapprovalDetails(PreapprovalDetailsRequest $preapprovalDetailsRequest, mixed $apiCredential = NULL): Types\AP\PreapprovalDetailsResponse|PreapprovalDetailsResponse {
+	public function PreapprovalDetails(PreapprovalDetailsRequest $preapprovalDetailsRequest, mixed $apiCredential = NULL): PreapprovalDetailsResponse {
 		$ret = new PreapprovalDetailsResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -285,7 +285,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\PreapprovalResponse
 	 * @throws Exception
 	 */
-	public function Preapproval(PreapprovalRequest $preapprovalRequest, mixed $apiCredential = NULL): PreapprovalResponse|Types\AP\PreapprovalResponse {
+	public function Preapproval(PreapprovalRequest $preapprovalRequest, mixed $apiCredential = NULL): PreapprovalResponse {
 		$ret = new PreapprovalResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -308,7 +308,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\RefundResponse
 	 * @throws Exception
 	 */
-	public function Refund(RefundRequest $refundRequest, mixed $apiCredential = NULL): Types\AP\RefundResponse|RefundResponse {
+	public function Refund(RefundRequest $refundRequest, mixed $apiCredential = NULL): RefundResponse {
 		$ret = new RefundResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -331,7 +331,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\SetPaymentOptionsResponse
 	 * @throws Exception
 	 */
-	public function SetPaymentOptions(SetPaymentOptionsRequest $setPaymentOptionsRequest, mixed $apiCredential = NULL): Types\AP\SetPaymentOptionsResponse|SetPaymentOptionsResponse {
+	public function SetPaymentOptions(SetPaymentOptionsRequest $setPaymentOptionsRequest, mixed $apiCredential = NULL): SetPaymentOptionsResponse {
 		$ret = new SetPaymentOptionsResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -354,7 +354,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\GetFundingPlansResponse
 	 * @throws Exception
 	 */
-	public function GetFundingPlans(GetFundingPlansRequest $getFundingPlansRequest, mixed $apiCredential = NULL): GetFundingPlansResponse|Types\AP\GetFundingPlansResponse {
+	public function GetFundingPlans(GetFundingPlansRequest $getFundingPlansRequest, mixed $apiCredential = NULL): GetFundingPlansResponse {
 		$ret = new GetFundingPlansResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -377,7 +377,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\GetAvailableShippingAddressesResponse
 	 * @throws Exception
 	 */
-	public function GetAvailableShippingAddresses(GetAvailableShippingAddressesRequest $getAvailableShippingAddressesRequest, mixed $apiCredential = NULL): GetAvailableShippingAddressesResponse|Types\AP\GetAvailableShippingAddressesResponse {
+	public function GetAvailableShippingAddresses(GetAvailableShippingAddressesRequest $getAvailableShippingAddressesRequest, mixed $apiCredential = NULL): GetAvailableShippingAddressesResponse {
 		$ret = new GetAvailableShippingAddressesResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -400,7 +400,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\GetShippingAddressesResponse
 	 * @throws Exception
 	 */
-	public function GetShippingAddresses(GetShippingAddressesRequest $getShippingAddressesRequest, mixed $apiCredential = NULL): Types\AP\GetShippingAddressesResponse|GetShippingAddressesResponse {
+	public function GetShippingAddresses(GetShippingAddressesRequest $getShippingAddressesRequest, mixed $apiCredential = NULL): GetShippingAddressesResponse {
 		$ret = new GetShippingAddressesResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -423,7 +423,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\GetUserLimitsResponse
 	 * @throws Exception
 	 */
-	public function GetUserLimits(GetUserLimitsRequest $getUserLimitsRequest, mixed $apiCredential = NULL): Types\AP\GetUserLimitsResponse|GetUserLimitsResponse {
+	public function GetUserLimits(GetUserLimitsRequest $getUserLimitsRequest, mixed $apiCredential = NULL): GetUserLimitsResponse {
 		$ret = new GetUserLimitsResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
@@ -446,7 +446,7 @@ class AdaptivePaymentsService extends PPBaseService {
 	 * @return Types\AP\GetPrePaymentDisclosureResponse
 	 * @throws Exception
 	 */
-	public function GetPrePaymentDisclosure(GetPrePaymentDisclosureRequest $getPrePaymentDisclosureRequest, mixed $apiCredential = NULL): GetPrePaymentDisclosureResponse|Types\AP\GetPrePaymentDisclosureResponse {
+	public function GetPrePaymentDisclosure(GetPrePaymentDisclosureRequest $getPrePaymentDisclosureRequest, mixed $apiCredential = NULL): GetPrePaymentDisclosureResponse {
 		$ret = new GetPrePaymentDisclosureResponse();
 		$apiContext = new PPApiContext($this->config);
         $handlers = array(
