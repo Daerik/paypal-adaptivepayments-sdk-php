@@ -14,7 +14,7 @@ class PaymentDetailsRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\RequestEnvelope	 
+	 * @var \PayPal\Types\Common\RequestEnvelope	 
 	 */ 
 	public mixed $requestEnvelope;
 

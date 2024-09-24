@@ -12,9 +12,9 @@ class GetPaymentOptionsRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\RequestEnvelope	 
+	 * @var \PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
+	public \PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 

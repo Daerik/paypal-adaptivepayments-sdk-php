@@ -13,18 +13,18 @@ class ConvertCurrencyResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ResponseEnvelope	 
+	 * @var \PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\CurrencyConversionTable	 
+	 * @var \PayPal\Types\AP\CurrencyConversionTable	 
 	 */ 
-	public PayPal\Types\AP\CurrencyConversionTable $estimatedAmountTable;
+	public \PayPal\Types\AP\CurrencyConversionTable $estimatedAmountTable;
 
 	/**
 	 * 
@@ -32,9 +32,9 @@ class ConvertCurrencyResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ErrorData	 
+	 * @var \PayPal\Types\Common\ErrorData	 
 	 */ 
-	public PayPal\Types\Common\ErrorData $error;
+	public \PayPal\Types\Common\ErrorData $error;
 
 
 }

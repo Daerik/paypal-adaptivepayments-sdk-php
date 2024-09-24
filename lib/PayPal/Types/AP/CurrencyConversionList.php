@@ -13,18 +13,18 @@ class CurrencyConversionList
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\CurrencyType	 
+	 * @var \PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public PayPal\Types\Common\CurrencyType $baseAmount;
+	public \PayPal\Types\Common\CurrencyType $baseAmount;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\CurrencyList	 
+	 * @var \PayPal\Types\AP\CurrencyList	 
 	 */ 
-	public PayPal\Types\AP\CurrencyList $currencyList;
+	public \PayPal\Types\AP\CurrencyList $currencyList;
 
 
 }

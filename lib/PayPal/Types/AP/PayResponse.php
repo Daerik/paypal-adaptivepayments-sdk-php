@@ -14,9 +14,9 @@ class PayResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ResponseEnvelope	 
+	 * @var \PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -41,45 +41,45 @@ class PayResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\PayErrorList	 
+	 * @var \PayPal\Types\AP\PayErrorList	 
 	 */ 
-	public PayPal\Types\AP\PayErrorList $payErrorList;
+	public \PayPal\Types\AP\PayErrorList $payErrorList;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\PaymentInfoList	 
+	 * @var \PayPal\Types\AP\PaymentInfoList	 
 	 */ 
-	public PayPal\Types\AP\PaymentInfoList $paymentInfoList;
+	public \PayPal\Types\AP\PaymentInfoList $paymentInfoList;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\SenderIdentifier	 
+	 * @var \PayPal\Types\AP\SenderIdentifier	 
 	 */ 
-	public PayPal\Types\AP\SenderIdentifier $sender;
+	public \PayPal\Types\AP\SenderIdentifier $sender;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\FundingPlan	 
+	 * @var \PayPal\Types\AP\FundingPlan	 
 	 */ 
-	public PayPal\Types\AP\FundingPlan $defaultFundingPlan;
+	public \PayPal\Types\AP\FundingPlan $defaultFundingPlan;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\WarningDataList	 
+	 * @var \PayPal\Types\AP\WarningDataList	 
 	 */ 
-	public PayPal\Types\AP\WarningDataList $warningDataList;
+	public \PayPal\Types\AP\WarningDataList $warningDataList;
 
 	/**
 	 * 
@@ -87,9 +87,9 @@ class PayResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ErrorData	 
+	 * @var \PayPal\Types\Common\ErrorData	 
 	 */ 
-	public PayPal\Types\Common\ErrorData $error;
+	public \PayPal\Types\Common\ErrorData $error;
 
 
 }

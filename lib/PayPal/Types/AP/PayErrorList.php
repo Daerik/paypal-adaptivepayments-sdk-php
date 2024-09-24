@@ -13,9 +13,9 @@ class PayErrorList
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\PayError	 
+	 * @var \PayPal\Types\AP\PayError	 
 	 */ 
-	public PayPal\Types\AP\PayError $payError;
+	public \PayPal\Types\AP\PayError $payError;
 
 
 }

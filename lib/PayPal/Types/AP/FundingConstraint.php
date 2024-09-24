@@ -12,9 +12,9 @@ class FundingConstraint
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\FundingTypeList	 
+	 * @var \PayPal\Types\AP\FundingTypeList	 
 	 */ 
-	public PayPal\Types\AP\FundingTypeList $allowedFundingType;
+	public \PayPal\Types\AP\FundingTypeList $allowedFundingType;
 
 
 }

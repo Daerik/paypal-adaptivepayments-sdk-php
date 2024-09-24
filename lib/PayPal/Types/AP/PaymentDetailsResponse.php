@@ -14,9 +14,9 @@ class PaymentDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ResponseEnvelope	 
+	 * @var \PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -59,9 +59,9 @@ class PaymentDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\PaymentInfoList	 
+	 * @var \PayPal\Types\AP\PaymentInfoList	 
 	 */ 
-	public PayPal\Types\AP\PaymentInfoList $paymentInfoList;
+	public \PayPal\Types\AP\PaymentInfoList $paymentInfoList;
 
 	/**
 	 * 
@@ -149,27 +149,27 @@ class PaymentDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\FundingConstraint	 
+	 * @var \PayPal\Types\AP\FundingConstraint	 
 	 */ 
-	public PayPal\Types\AP\FundingConstraint $fundingConstraint;
+	public \PayPal\Types\AP\FundingConstraint $fundingConstraint;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\SenderIdentifier	 
+	 * @var \PayPal\Types\AP\SenderIdentifier	 
 	 */ 
-	public PayPal\Types\AP\SenderIdentifier $sender;
+	public \PayPal\Types\AP\SenderIdentifier $sender;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\ShippingAddressInfo	 
+	 * @var \PayPal\Types\AP\ShippingAddressInfo	 
 	 */ 
-	public PayPal\Types\AP\ShippingAddressInfo $shippingAddress;
+	public \PayPal\Types\AP\ShippingAddressInfo $shippingAddress;
 
 	/**
 	 * 
@@ -186,9 +186,9 @@ class PaymentDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ErrorData	 
+	 * @var \PayPal\Types\Common\ErrorData	 
 	 */ 
-	public PayPal\Types\Common\ErrorData $error;
+	public \PayPal\Types\Common\ErrorData $error;
 
 
 }

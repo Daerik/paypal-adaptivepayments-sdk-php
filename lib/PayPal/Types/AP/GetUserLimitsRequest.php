@@ -12,7 +12,7 @@ class GetUserLimitsRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\RequestEnvelope	 
+	 * @var \PayPal\Types\Common\RequestEnvelope	 
 	 */ 
 	public mixed $requestEnvelope;
 
@@ -21,7 +21,7 @@ class GetUserLimitsRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\AccountIdentifier	 
+	 * @var \PayPal\Types\Common\AccountIdentifier	 
 	 */ 
 	public mixed $user;
 

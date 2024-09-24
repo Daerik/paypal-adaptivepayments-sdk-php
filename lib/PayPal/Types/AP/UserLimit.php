@@ -21,9 +21,9 @@ class UserLimit
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\CurrencyType	 
+	 * @var \PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public PayPal\Types\Common\CurrencyType $limitAmount;
+	public \PayPal\Types\Common\CurrencyType $limitAmount;
 
 
 }

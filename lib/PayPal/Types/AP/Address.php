@@ -17,13 +17,13 @@ class Address
 	public string $addresseeName;
 
 	/**
-	 * 
+	 *
 	 * @access public
 	 
-	 	 	 	 
-	 * @var PayPal\Types\Common\BaseAddress	 
-	 */ 
-	public PayPal\Types\Common\BaseAddress $baseAddress;
+	 
+	 * @var \PayPal\Types\Common\BaseAddress
+	 */
+	public \PayPal\Types\Common\BaseAddress $baseAddress;
 
 	/**
 	 * 

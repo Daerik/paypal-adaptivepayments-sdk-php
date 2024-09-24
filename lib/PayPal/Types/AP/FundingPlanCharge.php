@@ -12,18 +12,18 @@ class FundingPlanCharge
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\CurrencyType	 
+	 * @var \PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public PayPal\Types\Common\CurrencyType $charge;
+	public \PayPal\Types\Common\CurrencyType $charge;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\FundingSource	 
+	 * @var \PayPal\Types\AP\FundingSource	 
 	 */ 
-	public PayPal\Types\AP\FundingSource $fundingSource;
+	public \PayPal\Types\AP\FundingSource $fundingSource;
 
 
 }

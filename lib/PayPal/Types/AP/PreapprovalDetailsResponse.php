@@ -14,9 +14,9 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ResponseEnvelope	 
+	 * @var \PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -221,9 +221,9 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\AddressList	 
+	 * @var \PayPal\Types\AP\AddressList	 
 	 */ 
-	public PayPal\Types\AP\AddressList $addressList;
+	public \PayPal\Types\AP\AddressList $addressList;
 
 	/**
 	 * 
@@ -248,9 +248,9 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\SenderIdentifier	 
+	 * @var \PayPal\Types\AP\SenderIdentifier	 
 	 */ 
-	public PayPal\Types\AP\SenderIdentifier $sender;
+	public \PayPal\Types\AP\SenderIdentifier $sender;
 
 	/**
 	 * 
@@ -267,9 +267,9 @@ class PreapprovalDetailsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ErrorData	 
+	 * @var \PayPal\Types\Common\ErrorData	 
 	 */ 
-	public PayPal\Types\Common\ErrorData $error;
+	public \PayPal\Types\Common\ErrorData $error;
 
 
 }

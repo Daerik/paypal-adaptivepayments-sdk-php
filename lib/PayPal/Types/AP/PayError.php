@@ -13,18 +13,18 @@ class PayError
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\Receiver	 
+	 * @var \PayPal\Types\AP\Receiver	 
 	 */ 
-	public PayPal\Types\AP\Receiver $receiver;
+	public \PayPal\Types\AP\Receiver $receiver;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ErrorData	 
+	 * @var \PayPal\Types\Common\ErrorData	 
 	 */ 
-	public PayPal\Types\Common\ErrorData $error;
+	public \PayPal\Types\Common\ErrorData $error;
 
 
 }

@@ -13,9 +13,9 @@ class PostPaymentDisclosureList
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\PostPaymentDisclosure	 
+	 * @var \PayPal\Types\AP\PostPaymentDisclosure	 
 	 */ 
-	public PayPal\Types\AP\PostPaymentDisclosure $postPaymentDisclosure;
+	public \PayPal\Types\AP\PostPaymentDisclosure $postPaymentDisclosure;
 
 
 }

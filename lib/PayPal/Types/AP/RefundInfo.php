@@ -13,9 +13,9 @@ class RefundInfo
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\Receiver	 
+	 * @var \PayPal\Types\AP\Receiver	 
 	 */ 
-	public PayPal\Types\AP\Receiver $receiver;
+	public \PayPal\Types\AP\Receiver $receiver;
 
 	/**
 	 * 
@@ -94,9 +94,9 @@ class RefundInfo
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\ErrorList	 
+	 * @var \PayPal\Types\AP\ErrorList	 
 	 */ 
-	public PayPal\Types\AP\ErrorList $errorList;
+	public \PayPal\Types\AP\ErrorList $errorList;
 
 
 }

@@ -12,9 +12,9 @@ class SetPaymentOptionsRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\RequestEnvelope	 
+	 * @var \PayPal\Types\Common\RequestEnvelope	 
 	 */ 
-	public PayPal\Types\Common\RequestEnvelope $requestEnvelope;
+	public \PayPal\Types\Common\RequestEnvelope $requestEnvelope;
 
 	/**
 	 * 
@@ -30,18 +30,18 @@ class SetPaymentOptionsRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\InitiatingEntity	 
+	 * @var \PayPal\Types\AP\InitiatingEntity	 
 	 */ 
-	public PayPal\Types\AP\InitiatingEntity $initiatingEntity;
+	public \PayPal\Types\AP\InitiatingEntity $initiatingEntity;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\DisplayOptions	 
+	 * @var \PayPal\Types\AP\DisplayOptions	 
 	 */ 
-	public PayPal\Types\AP\DisplayOptions $displayOptions;
+	public \PayPal\Types\AP\DisplayOptions $displayOptions;
 
 	/**
 	 * 
@@ -57,9 +57,9 @@ class SetPaymentOptionsRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\SenderOptions	 
+	 * @var \PayPal\Types\AP\SenderOptions	 
 	 */ 
-	public PayPal\Types\AP\SenderOptions $senderOptions;
+	public \PayPal\Types\AP\SenderOptions $senderOptions;
 
 	/**
 	 * 
@@ -67,9 +67,9 @@ class SetPaymentOptionsRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\ReceiverOptions	 
+	 * @var \PayPal\Types\AP\ReceiverOptions	 
 	 */ 
-	public PayPal\Types\AP\ReceiverOptions $receiverOptions;
+	public \PayPal\Types\AP\ReceiverOptions $receiverOptions;
 
 	/**
 	 * Constructor with arguments

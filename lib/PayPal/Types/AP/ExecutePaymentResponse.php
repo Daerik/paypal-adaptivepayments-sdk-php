@@ -12,9 +12,9 @@ class ExecutePaymentResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ResponseEnvelope	 
+	 * @var \PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -30,18 +30,18 @@ class ExecutePaymentResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\PayErrorList	 
+	 * @var \PayPal\Types\AP\PayErrorList	 
 	 */ 
-	public PayPal\Types\AP\PayErrorList $payErrorList;
+	public \PayPal\Types\AP\PayErrorList $payErrorList;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\PostPaymentDisclosureList	 
+	 * @var \PayPal\Types\AP\PostPaymentDisclosureList	 
 	 */ 
-	public PayPal\Types\AP\PostPaymentDisclosureList $postPaymentDisclosureList;
+	public \PayPal\Types\AP\PostPaymentDisclosureList $postPaymentDisclosureList;
 
 	/**
 	 * 
@@ -49,9 +49,9 @@ class ExecutePaymentResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ErrorData	 
+	 * @var \PayPal\Types\Common\ErrorData	 
 	 */ 
-	public PayPal\Types\Common\ErrorData $error;
+	public \PayPal\Types\Common\ErrorData $error;
 
 
 }

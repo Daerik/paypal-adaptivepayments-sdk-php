@@ -14,7 +14,7 @@ class PayRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\RequestEnvelope	 
+	 * @var \PayPal\Types\Common\RequestEnvelope	 
 	 */ 
 	public mixed $requestEnvelope;
 
@@ -23,9 +23,9 @@ class PayRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ClientDetailsType	 
+	 * @var \PayPal\Types\Common\ClientDetailsType	 
 	 */ 
-	public PayPal\Types\Common\ClientDetailsType $clientDetails;
+	public \PayPal\Types\Common\ClientDetailsType $clientDetails;
 
 	/**
 	 * 
@@ -104,7 +104,7 @@ class PayRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\ReceiverList	 
+	 * @var \PayPal\Types\AP\ReceiverList	 
 	 */ 
 	public mixed $receiverList;
 
@@ -149,18 +149,18 @@ class PayRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\FundingConstraint	 
+	 * @var \PayPal\Types\AP\FundingConstraint	 
 	 */ 
-	public PayPal\Types\AP\FundingConstraint $fundingConstraint;
+	public \PayPal\Types\AP\FundingConstraint $fundingConstraint;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\SenderIdentifier	 
+	 * @var \PayPal\Types\AP\SenderIdentifier	 
 	 */ 
-	public PayPal\Types\AP\SenderIdentifier $sender;
+	public \PayPal\Types\AP\SenderIdentifier $sender;
 
 	/**
 	 * The pay key expires after the duration specified in this

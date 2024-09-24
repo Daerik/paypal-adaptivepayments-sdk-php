@@ -13,18 +13,18 @@ class ReceiverDisclosure
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\AccountIdentifier	 
+	 * @var \PayPal\Types\Common\AccountIdentifier	 
 	 */ 
-	public PayPal\Types\Common\AccountIdentifier $accountIdentifier;
+	public \PayPal\Types\Common\AccountIdentifier $accountIdentifier;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\CurrencyType	 
+	 * @var \PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public PayPal\Types\Common\CurrencyType $amountReceivedFromSender;
+	public \PayPal\Types\Common\CurrencyType $amountReceivedFromSender;
 
 	/**
 	 * The two-character ISO country code of the home country of
@@ -41,27 +41,27 @@ class ReceiverDisclosure
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\ConversionRate	 
+	 * @var \PayPal\Types\AP\ConversionRate	 
 	 */ 
-	public PayPal\Types\AP\ConversionRate $conversionRate;
+	public \PayPal\Types\AP\ConversionRate $conversionRate;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\FeeDisclosure	 
+	 * @var \PayPal\Types\AP\FeeDisclosure	 
 	 */ 
-	public PayPal\Types\AP\FeeDisclosure $feeDisclosure;
+	public \PayPal\Types\AP\FeeDisclosure $feeDisclosure;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\CurrencyType	 
+	 * @var \PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public PayPal\Types\Common\CurrencyType $totalAmountReceived;
+	public \PayPal\Types\Common\CurrencyType $totalAmountReceived;
 
 
 }

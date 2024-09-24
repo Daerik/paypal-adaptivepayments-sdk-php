@@ -78,9 +78,9 @@ class ErrorData
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ErrorParameter	 
+	 * @var \PayPal\Types\Common\ErrorParameter	 
 	 */ 
-	public PayPal\Types\Common\ErrorParameter $parameter;
+	public \PayPal\Types\Common\ErrorParameter $parameter;
 
 
 }

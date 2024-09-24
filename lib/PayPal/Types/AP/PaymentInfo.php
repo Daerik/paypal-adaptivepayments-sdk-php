@@ -33,9 +33,9 @@ class PaymentInfo
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\Receiver	 
+	 * @var \PayPal\Types\AP\Receiver	 
 	 */ 
-	public PayPal\Types\AP\Receiver $receiver;
+	public \PayPal\Types\AP\Receiver $receiver;
 
 	/**
 	 * 

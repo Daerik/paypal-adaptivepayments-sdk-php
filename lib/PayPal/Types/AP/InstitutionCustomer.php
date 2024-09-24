@@ -99,9 +99,9 @@ class InstitutionCustomer
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\BaseAddress	 
+	 * @var \PayPal\Types\Common\BaseAddress	 
 	 */ 
-	public PayPal\Types\Common\BaseAddress $address;
+	public \PayPal\Types\Common\BaseAddress $address;
 
 	/**
 	 * Constructor with arguments

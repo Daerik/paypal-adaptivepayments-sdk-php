@@ -33,9 +33,9 @@ class Receiver
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\PhoneNumberType	 
+	 * @var \PayPal\Types\Common\PhoneNumberType	 
 	 */ 
-	public PayPal\Types\Common\PhoneNumberType $phone;
+	public \PayPal\Types\Common\PhoneNumberType $phone;
 
 	/**
 	 * 

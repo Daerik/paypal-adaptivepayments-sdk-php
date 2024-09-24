@@ -42,9 +42,9 @@ class SenderOptions
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\ShippingAddressInfo	 
+	 * @var \PayPal\Types\AP\ShippingAddressInfo	 
 	 */ 
-	public PayPal\Types\AP\ShippingAddressInfo $shippingAddress;
+	public \PayPal\Types\AP\ShippingAddressInfo $shippingAddress;
 
 
 }

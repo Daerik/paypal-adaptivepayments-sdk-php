@@ -14,9 +14,9 @@ class InvoiceData
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\InvoiceItem	 
+	 * @var \PayPal\Types\AP\InvoiceItem	 
 	 */ 
-	public PayPal\Types\AP\InvoiceItem $item;
+	public \PayPal\Types\AP\InvoiceItem $item;
 
 	/**
 	 * 

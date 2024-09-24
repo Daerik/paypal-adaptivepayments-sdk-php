@@ -13,9 +13,9 @@ class GetFundingPlansResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ResponseEnvelope	 
+	 * @var \PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -23,9 +23,9 @@ class GetFundingPlansResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\FundingPlan	 
+	 * @var \PayPal\Types\AP\FundingPlan	 
 	 */ 
-	public PayPal\Types\AP\FundingPlan $fundingPlan;
+	public \PayPal\Types\AP\FundingPlan $fundingPlan;
 
 	/**
 	 * 
@@ -33,9 +33,9 @@ class GetFundingPlansResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ErrorData	 
+	 * @var \PayPal\Types\Common\ErrorData	 
 	 */ 
-	public PayPal\Types\Common\ErrorData $error;
+	public \PayPal\Types\Common\ErrorData $error;
 
 
 }

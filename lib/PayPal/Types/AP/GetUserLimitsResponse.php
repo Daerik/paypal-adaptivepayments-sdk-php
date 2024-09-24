@@ -12,9 +12,9 @@ class GetUserLimitsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ResponseEnvelope	 
+	 * @var \PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
@@ -22,18 +22,18 @@ class GetUserLimitsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\UserLimit	 
+	 * @var \PayPal\Types\AP\UserLimit	 
 	 */ 
-	public PayPal\Types\AP\UserLimit $userLimit;
+	public \PayPal\Types\AP\UserLimit $userLimit;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\WarningDataList	 
+	 * @var \PayPal\Types\AP\WarningDataList	 
 	 */ 
-	public PayPal\Types\AP\WarningDataList $warningDataList;
+	public \PayPal\Types\AP\WarningDataList $warningDataList;
 
 	/**
 	 * 
@@ -41,9 +41,9 @@ class GetUserLimitsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ErrorData	 
+	 * @var \PayPal\Types\Common\ErrorData	 
 	 */ 
-	public PayPal\Types\Common\ErrorData $error;
+	public \PayPal\Types\Common\ErrorData $error;
 
 
 }

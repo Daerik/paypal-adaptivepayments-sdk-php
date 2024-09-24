@@ -16,7 +16,7 @@ class PreapprovalRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\RequestEnvelope	 
+	 * @var \PayPal\Types\Common\RequestEnvelope	 
 	 */ 
 	public mixed $requestEnvelope;
 
@@ -25,9 +25,9 @@ class PreapprovalRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ClientDetailsType	 
+	 * @var \PayPal\Types\Common\ClientDetailsType	 
 	 */ 
-	public PayPal\Types\Common\ClientDetailsType $clientDetails;
+	public \PayPal\Types\Common\ClientDetailsType $clientDetails;
 
 	/**
 	 * 
@@ -205,9 +205,9 @@ class PreapprovalRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\SenderIdentifier	 
+	 * @var \PayPal\Types\AP\SenderIdentifier	 
 	 */ 
-	public PayPal\Types\AP\SenderIdentifier $sender;
+	public \PayPal\Types\AP\SenderIdentifier $sender;
 
 	/**
 	 * Constructor with arguments

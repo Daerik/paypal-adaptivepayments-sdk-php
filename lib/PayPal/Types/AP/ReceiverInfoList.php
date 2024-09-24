@@ -13,7 +13,7 @@ class ReceiverInfoList
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\ReceiverInfo	 
+	 * @var \PayPal\Types\AP\ReceiverInfo	 
 	 */ 
 	public mixed $receiverInfo;
 

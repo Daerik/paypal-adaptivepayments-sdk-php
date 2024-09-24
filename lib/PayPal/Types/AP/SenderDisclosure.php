@@ -12,27 +12,27 @@ class SenderDisclosure
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\CurrencyType	 
+	 * @var \PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public PayPal\Types\Common\CurrencyType $amountToTransfer;
+	public \PayPal\Types\Common\CurrencyType $amountToTransfer;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\FeeDisclosure	 
+	 * @var \PayPal\Types\AP\FeeDisclosure	 
 	 */ 
-	public PayPal\Types\AP\FeeDisclosure $feeDisclosure;
+	public \PayPal\Types\AP\FeeDisclosure $feeDisclosure;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\CurrencyType	 
+	 * @var \PayPal\Types\Common\CurrencyType	 
 	 */ 
-	public PayPal\Types\Common\CurrencyType $totalAmountToTransfer;
+	public \PayPal\Types\Common\CurrencyType $totalAmountToTransfer;
 
 
 }

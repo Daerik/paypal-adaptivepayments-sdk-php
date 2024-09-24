@@ -15,7 +15,7 @@ class RefundRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\RequestEnvelope	 
+	 * @var \PayPal\Types\Common\RequestEnvelope	 
 	 */ 
 	public mixed $requestEnvelope;
 
@@ -60,9 +60,9 @@ class RefundRequest
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\ReceiverList	 
+	 * @var \PayPal\Types\AP\ReceiverList	 
 	 */ 
-	public PayPal\Types\AP\ReceiverList $receiverList;
+	public \PayPal\Types\AP\ReceiverList $receiverList;
 
 	/**
 	 * Constructor with arguments

@@ -12,27 +12,27 @@ class GetPaymentOptionsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ResponseEnvelope	 
+	 * @var \PayPal\Types\Common\ResponseEnvelope	 
 	 */ 
-	public PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
+	public \PayPal\Types\Common\ResponseEnvelope $responseEnvelope;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\InitiatingEntity	 
+	 * @var \PayPal\Types\AP\InitiatingEntity	 
 	 */ 
-	public PayPal\Types\AP\InitiatingEntity $initiatingEntity;
+	public \PayPal\Types\AP\InitiatingEntity $initiatingEntity;
 
 	/**
 	 * 
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\DisplayOptions	 
+	 * @var \PayPal\Types\AP\DisplayOptions	 
 	 */ 
-	public PayPal\Types\AP\DisplayOptions $displayOptions;
+	public \PayPal\Types\AP\DisplayOptions $displayOptions;
 
 	/**
 	 * 
@@ -48,9 +48,9 @@ class GetPaymentOptionsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\SenderOptions	 
+	 * @var \PayPal\Types\AP\SenderOptions	 
 	 */ 
-	public PayPal\Types\AP\SenderOptions $senderOptions;
+	public \PayPal\Types\AP\SenderOptions $senderOptions;
 
 	/**
 	 * 
@@ -58,9 +58,9 @@ class GetPaymentOptionsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\AP\ReceiverOptions	 
+	 * @var \PayPal\Types\AP\ReceiverOptions	 
 	 */ 
-	public PayPal\Types\AP\ReceiverOptions $receiverOptions;
+	public \PayPal\Types\AP\ReceiverOptions $receiverOptions;
 
 	/**
 	 * 
@@ -68,9 +68,9 @@ class GetPaymentOptionsResponse
 	 * @access public
 	 
 	 	 	 	 
-	 * @var PayPal\Types\Common\ErrorData	 
+	 * @var \PayPal\Types\Common\ErrorData	 
 	 */ 
-	public PayPal\Types\Common\ErrorData $error;
+	public \PayPal\Types\Common\ErrorData $error;
 
 
 }
